@@ -19,9 +19,9 @@ modules:
   - name: haruna
     buildsystem: cmake-ninja
     sources:
-      - type: archive
-        url: 'https://invent.kde.org/multimedia/haruna/-/archive/0.6.3.1/haruna-0.6.3.1.tar.gz'
-        sha256: '0dbf156c4deb8a0db08bad182cf5f2bef964e9574933ca19c3f39a07963b6519'
+      - type: git
+        url: 'https://invent.kde.org/multimedia/haruna'
+        sha256: '9fc384b0'
     modules:
       - name: taglib
         buildsystem: cmake-ninja
