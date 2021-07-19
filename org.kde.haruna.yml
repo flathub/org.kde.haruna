@@ -21,7 +21,7 @@ modules:
     sources:
       - type: git
         url: 'https://invent.kde.org/multimedia/haruna'
-        sha256: '9fc384b0'
+        sha256: '3ed6687a'
     modules:
       - name: taglib
         buildsystem: cmake-ninja
