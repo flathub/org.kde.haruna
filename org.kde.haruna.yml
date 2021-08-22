@@ -20,8 +20,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://invent.kde.org/multimedia/haruna/-/archive/0.6.3.1/haruna-0.6.3.1.tar.gz'
-        sha256: '0dbf156c4deb8a0db08bad182cf5f2bef964e9574933ca19c3f39a07963b6519'
+        url: 'https://download.kde.org/stable/haruna/haruna-0.7.0.tar.xz'
+        sha256: '55bfed13a4aa58f1705b9de1ec3d7ab5b987bfd300a7f5a38bb206865a5fea6d'
     modules:
       - name: taglib
         buildsystem: cmake-ninja
@@ -31,20 +31,6 @@ modules:
         - type: archive
           url: 'https://github.com/taglib/taglib/releases/download/v1.12/taglib-1.12.tar.gz'
           sha256: '7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703'
-
-      - name: ffmpegthumbs
-        buildsystem: cmake-ninja
-        sources:
-        - type: archive
-          url: 'https://invent.kde.org/multimedia/ffmpegthumbs/-/archive/v21.04.1/ffmpegthumbs-v21.04.1.tar.gz'
-          sha256: '7509a2095e6d401afa614413fb7915736dd5e1bd43da2ffa9fd2cbe28a35edce'
-
-      - name: kio-extras
-        buildsystem: cmake-ninja
-        sources:
-        - type: archive
-          url: 'https://invent.kde.org/network/kio-extras/-/archive/v21.04.1/kio-extras-v21.04.1.tar.gz'
-          sha256: '32a04343396c55481861242c894eb84cedd1d4ef79a260e4dd0ec9aa654e8b24'
 
       - name: libmpv
         cleanup:
@@ -108,8 +94,8 @@ modules:
               - PREFIX=/app
             sources:
               - type: archive
-                url: 'https://github.com/FFmpeg/nv-codec-headers/releases/download/n11.0.10.1/nv-codec-headers-11.0.10.1.tar.gz'
-                sha256: '97e37b85922f1167b2f0bf0bb804c3d7266cc679e78814fe820cf8912a0e1291'
+                url: 'https://github.com/FFmpeg/nv-codec-headers/releases/download/n11.1.5.0/nv-codec-headers-11.1.5.0.tar.gz'
+                sha256: '5b3692da3215006ea9fb5585b046605133cd111eb63e376feb5309ccb5ff13dc'
 
           - name: ffmpeg
             cleanup:
