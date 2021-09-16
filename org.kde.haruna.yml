@@ -20,8 +20,10 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://download.kde.org/stable/haruna/haruna-0.7.0.tar.xz'
-        sha256: '55bfed13a4aa58f1705b9de1ec3d7ab5b987bfd300a7f5a38bb206865a5fea6d'
+        url: 'https://download.kde.org/stable/haruna/haruna-0.7.1.tar.xz'
+        sha256: '1082ab8ed094e088172576b48165a77b00a61f09b6679252c8fcc5de72479d33'
+      - type: patch
+        path: '01-dont-open-settings-window.diff'
     modules:
       - name: taglib
         buildsystem: cmake-ninja
@@ -135,8 +137,8 @@ modules:
               - '--disable-static'
             sources:
               - type: archive
-                url: 'https://github.com/libass/libass/releases/download/0.15.1/libass-0.15.1.tar.gz'
-                sha256: '101e2be1bf52e8fc265e7ca2225af8bd678839ba13720b969883eb9da43048a6'
+                url: 'https://github.com/libass/libass/releases/download/0.15.2/libass-0.15.2.tar.gz'
+                sha256: '1b2a54dda819ef84fa2dee3069cf99748a886363d2adb630fde87fe046e2d1d5'
 
           - name: uchardet
             buildsystem: cmake-ninja
