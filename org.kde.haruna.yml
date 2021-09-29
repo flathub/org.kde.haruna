@@ -20,10 +20,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://download.kde.org/stable/haruna/haruna-0.7.1.tar.xz'
-        sha256: '1082ab8ed094e088172576b48165a77b00a61f09b6679252c8fcc5de72479d33'
-      - type: patch
-        path: '01-dont-open-settings-window.diff'
+        url: 'https://download.kde.org/stable/haruna/haruna-0.7.2.tar.xz'
+        sha256: 'c659fbfa99c8a2a504a8fe5899914fc9800919d4dfe6b8509212489a74630df2'
     modules:
       - name: taglib
         buildsystem: cmake-ninja
