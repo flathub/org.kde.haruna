@@ -21,31 +21,8 @@ modules:
     sources:
       - type: git
         url: 'https://invent.kde.org/multimedia/haruna'
-        sha256: '3ed6687a'
+        sha256: '61476c1e8543670aa017d9add3e13c8221ccb1e0'
     modules:
-      - name: taglib
-        buildsystem: cmake-ninja
-        config-opts:
-        - '-DBUILD_SHARED_LIBS=ON'
-        sources:
-        - type: archive
-          url: 'https://github.com/taglib/taglib/releases/download/v1.12/taglib-1.12.tar.gz'
-          sha256: '7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703'
-
-      - name: ffmpegthumbs
-        buildsystem: cmake-ninja
-        sources:
-        - type: archive
-          url: 'https://invent.kde.org/multimedia/ffmpegthumbs/-/archive/v21.04.1/ffmpegthumbs-v21.04.1.tar.gz'
-          sha256: '7509a2095e6d401afa614413fb7915736dd5e1bd43da2ffa9fd2cbe28a35edce'
-
-      - name: kio-extras
-        buildsystem: cmake-ninja
-        sources:
-        - type: archive
-          url: 'https://invent.kde.org/network/kio-extras/-/archive/v21.04.1/kio-extras-v21.04.1.tar.gz'
-          sha256: '32a04343396c55481861242c894eb84cedd1d4ef79a260e4dd0ec9aa654e8b24'
-
       - name: libmpv
         cleanup:
           - /include
@@ -58,8 +35,8 @@ modules:
           - python3 waf install
         sources:
           - type: archive
-            url: 'https://github.com/mpv-player/mpv/archive/v0.33.1.tar.gz'
-            sha256: '100a116b9f23bdcda3a596e9f26be3a69f166a4f1d00910d1789b6571c46f3a9'
+            url: 'https://github.com/mpv-player/mpv/archive/refs/tags/v0.34.0.tar.gz'
+            sha256: 'f654fb6275e5178f57e055d20918d7d34e19949bc98ebbf4a7371902e88ce309'
           - type: file
             url: 'https://waf.io/waf-2.0.21'
             sha256: '7cebf2c5efe53cbb9a4b5bdc4b49ae90ecd64a8fce7a3222d58e591b58215306'
@@ -97,8 +74,8 @@ modules:
               - '--with-udevdir=/app/lib/udev'
             sources:
               - type: archive
-                url: 'https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.20.0.tar.bz2'
-                sha256: '956118713f7ccb405c55c7088a6a2490c32d54300dd9a30d8d5008c28d3726f7'
+                url: 'https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.22.1.tar.bz2'
+                sha256: '65c6fbe830a44ca105c443b027182c1b2c9053a91d1e72ad849dfab388b94e31'
 
           - name: nv-codec-headers
             cleanup:
@@ -108,8 +85,8 @@ modules:
               - PREFIX=/app
             sources:
               - type: archive
-                url: 'https://github.com/FFmpeg/nv-codec-headers/releases/download/n11.0.10.1/nv-codec-headers-11.0.10.1.tar.gz'
-                sha256: '97e37b85922f1167b2f0bf0bb804c3d7266cc679e78814fe820cf8912a0e1291'
+                url: 'https://github.com/FFmpeg/nv-codec-headers/releases/download/n11.1.5.0/nv-codec-headers-11.1.5.0.tar.gz'
+                sha256: '5b3692da3215006ea9fb5585b046605133cd111eb63e376feb5309ccb5ff13dc'
 
           - name: ffmpeg
             cleanup:
@@ -137,8 +114,8 @@ modules:
               - '--enable-libwebp'
             sources:
               - type: archive
-                url: 'https://ffmpeg.org/releases/ffmpeg-4.4.tar.gz'
-                sha256: 'a4abede145de22eaf233baa1726e38e137f5698d9edd61b5763cd02b883f3c7c'
+                url: 'https://ffmpeg.org/releases/ffmpeg-4.4.1.tar.gz'
+                sha256: '82c98f74777f623710b72f9a3389fd38c1ed93bc661107e65df19234e395f6b9'
 
           - name: libass
             cleanup:
@@ -149,8 +126,8 @@ modules:
               - '--disable-static'
             sources:
               - type: archive
-                url: 'https://github.com/libass/libass/releases/download/0.15.1/libass-0.15.1.tar.gz'
-                sha256: '101e2be1bf52e8fc265e7ca2225af8bd678839ba13720b969883eb9da43048a6'
+                url: 'https://github.com/libass/libass/releases/download/0.15.2/libass-0.15.2.tar.gz'
+                sha256: '1b2a54dda819ef84fa2dee3069cf99748a886363d2adb630fde87fe046e2d1d5'
 
           - name: uchardet
             buildsystem: cmake-ninja
@@ -167,15 +144,15 @@ modules:
                 url: 'https://gitlab.freedesktop.org/uchardet/uchardet/-/archive/v0.0.7/uchardet-v0.0.7.tar.gz'
                 sha256: 'f3635d1d10e1470452bc42c1bf509451a9926b399a11740a9949e86069d69f58'
 
-      - name: youtube-dl
+      - name: yt-dlp
         no-autogen: true
         no-make-install: true
         make-args:
-          - youtube-dl
+          - yt-dlp
           - PYTHON=/usr/bin/python3
         post-install:
-          - install youtube-dl /app/bin
+          - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/ytdl-org/youtube-dl/archive/2021.06.06.tar.gz'
-            sha256: '3d609df194db40f28fd4ef224cf732cd3ce7acd8596e3a0d19edba0fc5d047fa'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.10.22.tar.gz'
+            sha256: '63f267cb0f2e9d18afc8e51267be2a13ce60030eab7c04b25b94d6b90d2ba6d3'
