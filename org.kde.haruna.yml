@@ -20,18 +20,9 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://download.kde.org/stable/haruna/haruna-0.7.2.tar.xz'
-        sha256: 'c659fbfa99c8a2a504a8fe5899914fc9800919d4dfe6b8509212489a74630df2'
+        url: 'https://download.kde.org/stable/haruna/haruna-0.7.3.tar.xz'
+        sha256: 'a846a882aefecb969e2002b37dde86c8ec6927e9170c5ba155c74e9b9b45536a'
     modules:
-      - name: taglib
-        buildsystem: cmake-ninja
-        config-opts:
-        - '-DBUILD_SHARED_LIBS=ON'
-        sources:
-        - type: archive
-          url: 'https://github.com/taglib/taglib/releases/download/v1.12/taglib-1.12.tar.gz'
-          sha256: '7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703'
-
       - name: libmpv
         cleanup:
           - /include
@@ -83,8 +74,8 @@ modules:
               - '--with-udevdir=/app/lib/udev'
             sources:
               - type: archive
-                url: 'https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.20.0.tar.bz2'
-                sha256: '956118713f7ccb405c55c7088a6a2490c32d54300dd9a30d8d5008c28d3726f7'
+                url: 'https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.22.1.tar.bz2'
+                sha256: '65c6fbe830a44ca105c443b027182c1b2c9053a91d1e72ad849dfab388b94e31'
 
           - name: nv-codec-headers
             cleanup:
@@ -123,8 +114,8 @@ modules:
               - '--enable-libwebp'
             sources:
               - type: archive
-                url: 'https://ffmpeg.org/releases/ffmpeg-4.4.tar.gz'
-                sha256: 'a4abede145de22eaf233baa1726e38e137f5698d9edd61b5763cd02b883f3c7c'
+                url: 'https://ffmpeg.org/releases/ffmpeg-4.4.1.tar.gz'
+                sha256: '82c98f74777f623710b72f9a3389fd38c1ed93bc661107e65df19234e395f6b9'
 
           - name: libass
             cleanup:
@@ -153,15 +144,15 @@ modules:
                 url: 'https://gitlab.freedesktop.org/uchardet/uchardet/-/archive/v0.0.7/uchardet-v0.0.7.tar.gz'
                 sha256: 'f3635d1d10e1470452bc42c1bf509451a9926b399a11740a9949e86069d69f58'
 
-      - name: youtube-dl
+      - name: yt-dlp
         no-autogen: true
         no-make-install: true
         make-args:
-          - youtube-dl
+          - yt-dlp
           - PYTHON=/usr/bin/python3
         post-install:
-          - install youtube-dl /app/bin
+          - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/ytdl-org/youtube-dl/archive/2021.06.06.tar.gz'
-            sha256: '3d609df194db40f28fd4ef224cf732cd3ce7acd8596e3a0d19edba0fc5d047fa'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.10.22.tar.gz'
+            sha256: '63f267cb0f2e9d18afc8e51267be2a13ce60030eab7c04b25b94d6b90d2ba6d3'
