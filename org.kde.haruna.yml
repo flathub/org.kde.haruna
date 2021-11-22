@@ -35,8 +35,8 @@ modules:
           - python3 waf install
         sources:
           - type: archive
-            url: 'https://github.com/mpv-player/mpv/archive/v0.33.1.tar.gz'
-            sha256: '100a116b9f23bdcda3a596e9f26be3a69f166a4f1d00910d1789b6571c46f3a9'
+            url: 'https://github.com/mpv-player/mpv/archive/refs/tags/v0.34.0.tar.gz'
+            sha256: 'f654fb6275e5178f57e055d20918d7d34e19949bc98ebbf4a7371902e88ce309'
           - type: file
             url: 'https://waf.io/waf-2.0.21'
             sha256: '7cebf2c5efe53cbb9a4b5bdc4b49ae90ecd64a8fce7a3222d58e591b58215306'
@@ -154,5 +154,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.10.22.tar.gz'
-            sha256: '63f267cb0f2e9d18afc8e51267be2a13ce60030eab7c04b25b94d6b90d2ba6d3'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.11.10.1.tar.gz'
+            sha256: 'b0bfe3a1e7c3a9a1e24219c36eaf8604328b29cc3560387f75506f45b78ea695'
