@@ -1,9 +1,11 @@
 ---
 app-id: org.kde.haruna
 runtime: org.kde.Platform
-runtime-version: '5.15'
+runtime-version: '5.15-21.08'
 sdk: org.kde.Sdk
 command: haruna
+rename-icon: haruna
+copy-icon: true
 finish-args:
   - '--share=ipc'
   - '--share=network'
@@ -38,8 +40,8 @@ modules:
             url: 'https://github.com/mpv-player/mpv/archive/refs/tags/v0.34.0.tar.gz'
             sha256: 'f654fb6275e5178f57e055d20918d7d34e19949bc98ebbf4a7371902e88ce309'
           - type: file
-            url: 'https://waf.io/waf-2.0.21'
-            sha256: '7cebf2c5efe53cbb9a4b5bdc4b49ae90ecd64a8fce7a3222d58e591b58215306'
+            url: 'https://waf.io/waf-2.0.22'
+            sha256: '0a09ad26a2cfc69fa26ab871cb558165b60374b5a653ff556a0c6aca63a00df1'
             dest-filename: waf
         modules:
           - name: luajit
@@ -154,5 +156,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.11.10.1.tar.gz'
-            sha256: 'b0bfe3a1e7c3a9a1e24219c36eaf8604328b29cc3560387f75506f45b78ea695'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.12.01.tar.gz'
+            sha256: 'c3ae873c1ab51399ae1024db65a28ee06681328ca87da69c0af03edaa04c6770'
