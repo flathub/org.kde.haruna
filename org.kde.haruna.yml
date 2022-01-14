@@ -37,11 +37,11 @@ modules:
           - python3 waf install
         sources:
           - type: archive
-            url: 'https://github.com/mpv-player/mpv/archive/refs/tags/v0.34.0.tar.gz'
-            sha256: 'f654fb6275e5178f57e055d20918d7d34e19949bc98ebbf4a7371902e88ce309'
+            url: 'https://github.com/mpv-player/mpv/archive/refs/tags/v0.34.1.tar.gz'
+            sha256: '32ded8c13b6398310fa27767378193dc1db6d78b006b70dbcbd3123a1445e746'
           - type: file
-            url: 'https://waf.io/waf-2.0.22'
-            sha256: '0a09ad26a2cfc69fa26ab871cb558165b60374b5a653ff556a0c6aca63a00df1'
+            url: 'https://waf.io/waf-2.0.23'
+            sha256: '28a2e4583314a162cfcbffefb8a9202c1d7869040d30b5852da479b76d9c0491'
             dest-filename: waf
         modules:
           - name: luajit
@@ -87,8 +87,8 @@ modules:
               - PREFIX=/app
             sources:
               - type: archive
-                url: 'https://github.com/FFmpeg/nv-codec-headers/releases/download/n11.1.5.0/nv-codec-headers-11.1.5.0.tar.gz'
-                sha256: '5b3692da3215006ea9fb5585b046605133cd111eb63e376feb5309ccb5ff13dc'
+                url: 'https://github.com/FFmpeg/nv-codec-headers/releases/download/n11.1.5.1/nv-codec-headers-11.1.5.1.tar.gz'
+                sha256: 'a28cdde3ac0e9e02c2dde7a1b4de5333b4ac6148a8332ca712da243a3361a0d9'
 
           - name: ffmpeg
             cleanup:
@@ -156,5 +156,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.12.01.tar.gz'
-            sha256: 'c3ae873c1ab51399ae1024db65a28ee06681328ca87da69c0af03edaa04c6770'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.12.27.tar.gz'
+            sha256: '7b659b2e71362a5a5c524368efa2009f98f5c92e4ec924fe0ebe3d2a08fb4643'
