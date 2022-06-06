@@ -23,7 +23,7 @@ modules:
     sources:
       - type: git
         url: 'https://invent.kde.org/multimedia/haruna'
-        sha256: '8940fae382e7fd50fc61572bb8c8362bac0c98a9'
+        sha256: '0514932445e00dbba84e252a37df6a1953374a49'
     modules:
       - name: libmpv
         cleanup:
@@ -156,5 +156,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2021.12.27.tar.gz'
-            sha256: '7b659b2e71362a5a5c524368efa2009f98f5c92e4ec924fe0ebe3d2a08fb4643'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.04.08.tar.gz'
+            sha256: '0e427a4df804787e1543a0ca42436564f0122d7a38b8712089ebd31cce39c224'
