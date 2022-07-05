@@ -23,7 +23,7 @@ modules:
     sources:
       - type: git
         url: 'https://invent.kde.org/multimedia/haruna'
-        sha256: '0514932445e00dbba84e252a37df6a1953374a49'
+        sha256: '85848680045f34b53597bcb17caa62b7e84ee248'
     modules:
       - name: libmpv
         cleanup:
