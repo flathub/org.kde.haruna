@@ -116,8 +116,8 @@ modules:
               - '--enable-libwebp'
             sources:
               - type: archive
-                url: 'https://ffmpeg.org/releases/ffmpeg-4.4.1.tar.gz'
-                sha256: '82c98f74777f623710b72f9a3389fd38c1ed93bc661107e65df19234e395f6b9'
+                url: 'https://ffmpeg.org/releases/ffmpeg-4.4.2.tar.gz'
+                sha256: '058efd4b6459bc9df54186f17a989d0af619a793aa62f07e96b88632706d6a17'
 
           - name: libass
             cleanup:
@@ -128,8 +128,8 @@ modules:
               - '--disable-static'
             sources:
               - type: archive
-                url: 'https://github.com/libass/libass/releases/download/0.15.2/libass-0.15.2.tar.gz'
-                sha256: '1b2a54dda819ef84fa2dee3069cf99748a886363d2adb630fde87fe046e2d1d5'
+                url: 'https://github.com/libass/libass/releases/download/0.16.0/libass-0.16.0.tar.gz'
+                sha256: 'fea8019b1887cab9ab00c1e58614b4ec2b1cee339b3f7e446f5fab01b032d430'
 
           - name: uchardet
             buildsystem: cmake-ninja
@@ -156,5 +156,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.04.08.tar.gz'
-            sha256: '0e427a4df804787e1543a0ca42436564f0122d7a38b8712089ebd31cce39c224'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.06.29.tar.gz'
+            sha256: '0db4a6ba3e7ebfc204b7dfe4d753e5f56238bed0853b65c467d2c9206d035dfc'
