@@ -116,8 +116,8 @@ modules:
               - '--enable-libwebp'
             sources:
               - type: archive
-                url: 'https://ffmpeg.org/releases/ffmpeg-4.4.2.tar.gz'
-                sha256: '058efd4b6459bc9df54186f17a989d0af619a793aa62f07e96b88632706d6a17'
+                url: 'https://ffmpeg.org/releases/ffmpeg-5.1.tar.gz'
+                sha256: 'c0b2ec290abd5ad31b5e0a8c455c34f90306ecd2ede6ace5db5ca3a07f3b842f'
 
           - name: libass
             cleanup:
@@ -156,5 +156,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.06.29.tar.gz'
-            sha256: '0db4a6ba3e7ebfc204b7dfe4d753e5f56238bed0853b65c467d2c9206d035dfc'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.07.18.tar.gz'
+            sha256: 'c7a68a2c2057ff2d981ff619eb855e4661c3e5c1263c04ec4afa3815e8ae1b91'
