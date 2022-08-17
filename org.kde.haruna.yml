@@ -22,8 +22,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://download.kde.org/stable/haruna/haruna-0.8.0.tar.xz'
-        sha256: 'dfea4a415d1c41992342c9684382974b2510e5dff06b8a27c29f2c3cc54c3dfe'
+        url: 'https://download.kde.org/stable/haruna/haruna-0.9.0.tar.xz'
+        sha256: '06dad208e79dd8d9b46b9e654aefcc0a8a76b9cdca19f88d2c6bd320fd641be4'
     modules:
       - name: libmpv
         cleanup:
@@ -156,5 +156,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.07.18.tar.gz'
-            sha256: 'c7a68a2c2057ff2d981ff619eb855e4661c3e5c1263c04ec4afa3815e8ae1b91'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.08.14.tar.gz'
+            sha256: '6675444dd1740be5d5d95646ff5e24d95935b0030e1b8b24b198e12d1d0ec228'
