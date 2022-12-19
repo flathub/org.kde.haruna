@@ -23,7 +23,7 @@ modules:
     sources:
       - type: git
         url: 'https://invent.kde.org/multimedia/haruna'
-        sha256: 'b89361b050d165c0a47a592e6a8b13ad59fb679f'
+        commit: '2b7b14070cd9803cbeefdeedcf5c886970219861'
     modules:
       - name: libmpv
         cleanup:
@@ -40,8 +40,8 @@ modules:
             url: 'https://github.com/mpv-player/mpv/archive/refs/tags/v0.34.1.tar.gz'
             sha256: '32ded8c13b6398310fa27767378193dc1db6d78b006b70dbcbd3123a1445e746'
           - type: file
-            url: 'https://waf.io/waf-2.0.23'
-            sha256: '28a2e4583314a162cfcbffefb8a9202c1d7869040d30b5852da479b76d9c0491'
+            url: 'https://waf.io/waf-2.0.24'
+            sha256: '93909bca823a675f9f40af7c65b24887c3a3c0efdf411ff1978ba827194bdeb0'
             dest-filename: waf
         modules:
           - name: luajit
@@ -116,8 +116,8 @@ modules:
               - '--enable-libwebp'
             sources:
               - type: archive
-                url: 'https://ffmpeg.org/releases/ffmpeg-4.4.2.tar.gz'
-                sha256: '058efd4b6459bc9df54186f17a989d0af619a793aa62f07e96b88632706d6a17'
+                url: 'https://ffmpeg.org/releases/ffmpeg-5.1.tar.gz'
+                sha256: 'c0b2ec290abd5ad31b5e0a8c455c34f90306ecd2ede6ace5db5ca3a07f3b842f'
 
           - name: libass
             cleanup:
@@ -156,5 +156,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.06.29.tar.gz'
-            sha256: '0db4a6ba3e7ebfc204b7dfe4d753e5f56238bed0853b65c467d2c9206d035dfc'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2022.11.11.tar.gz'
+            sha256: 'eff1b2effb599268db46efe56563ffbfc8006090e05f904c8aacf6efddb410f6'
