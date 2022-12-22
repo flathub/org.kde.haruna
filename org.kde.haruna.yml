@@ -23,7 +23,7 @@ modules:
     sources:
       - type: git
         url: 'https://invent.kde.org/multimedia/haruna'
-        commit: '0a9a948296553ce540f7bd068691037e1124d765'
+        commit: '82a4088d7ccf70c4f0de3e27c8771ef6eb91315e'
     modules:
       - name: libmpv
         cleanup:
