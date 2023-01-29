@@ -22,8 +22,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://download.kde.org/stable/haruna/haruna-0.10.2.tar.xz'
-        sha256: 'b08edc5b7b430f4856dac32722d8ecbdcb8ea2fc5cc103b17cbc9996dfd427c0'
+        url: 'https://download.kde.org/stable/haruna/haruna-0.10.3.tar.xz'
+        sha256: '4d21eaa709dd3b9f393e2252c4642127ab5da9781a74c903dafba64ae3f9d296'
     modules:
       - name: libmpv
         cleanup:
@@ -37,8 +37,8 @@ modules:
           - python3 waf install
         sources:
           - type: archive
-            url: 'https://github.com/mpv-player/mpv/archive/refs/tags/v0.35.0.tar.gz'
-            sha256: 'dc411c899a64548250c142bf1fa1aa7528f1b4398a24c86b816093999049ec00'
+            url: 'https://github.com/mpv-player/mpv/archive/refs/tags/v0.35.1.tar.gz'
+            sha256: '41df981b7b84e33a2ef4478aaf81d6f4f5c8b9cd2c0d337ac142fc20b387d1a9'
           - type: file
             url: 'https://waf.io/waf-2.0.25'
             sha256: '21199cd220ccf60434133e1fd2ab8c8e5217c3799199c82722543970dc8e38d5'
@@ -156,5 +156,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.01.02.tar.gz'
-            sha256: '46dfff1c55af35971506f6d9c2041974f713bb75b41a45c1af0ede7d205d2c76'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.01.06.tar.gz'
+            sha256: '1ac3dfed834fec9ae18e8d2f0ee8be561df172d08ee42d90423f99fedd7f3226'
