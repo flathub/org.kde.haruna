@@ -142,5 +142,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.03.04.tar.gz'
-            sha256: '5e5abfe78b8f92f8b8307231d1e7ed0e462407f4cd861b48a0278559612de9aa'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.02.17.tar.gz'
+            sha256: '37b74a5d88036205e70b38d230930825bfa1798cb24d7e5f2670799f0d47e2be'
