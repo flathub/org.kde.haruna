@@ -22,8 +22,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: 'https://download.kde.org/stable/haruna/haruna-0.11.1.tar.xz'
-        sha256: 'bcc78373ac48e764ec54aa495d9a0bad9fd620e55bc0e28cf683a0862973bc98'
+        url: 'https://download.kde.org/stable/haruna/haruna-0.11.2.tar.xz'
+        sha256: 'a3cd8cb56330b95ac0da4053d79bb8221e1c5810db34be7ccdbf683e7289e303'
     modules:
       - name: libmpv
         cleanup:
@@ -73,8 +73,8 @@ modules:
               - PREFIX=/app
             sources:
               - type: archive
-                url: 'https://github.com/FFmpeg/nv-codec-headers/releases/download/n11.1.5.2/nv-codec-headers-11.1.5.2.tar.gz'
-                sha256: '1442e3159e7311dd71f8fca86e615f51609998939b6a6d405d6683d8eb3af6ee'
+                url: 'https://github.com/FFmpeg/nv-codec-headers/releases/download/n12.0.16.0/nv-codec-headers-12.0.16.0.tar.gz'
+                sha256: 'ab0ed1db1c2a03410c7006b941d145a73683eaec121cdf5d3009749fb8dc8a03'
 
           - name: ffmpeg
             cleanup:
@@ -142,5 +142,5 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.02.17.tar.gz'
-            sha256: '37b74a5d88036205e70b38d230930825bfa1798cb24d7e5f2670799f0d47e2be'
+            url: 'https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.06.21.tar.gz'
+            sha256: '770d0939375144c2959dfdd701dddaf36aea9275873a1e04c16f6221f4dbf6d4'
