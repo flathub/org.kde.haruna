@@ -51,6 +51,10 @@ modules:
 
           - name: libXpresent
             buildsystem: autotools
+            cleanup:
+              - /lib/*.a
+              - /lib/*.la
+              - /lib/pkgconfig
             sources:
               - type: archive
                 url: https://xorg.freedesktop.org/archive/individual/lib/libXpresent-1.0.1.tar.xz
@@ -139,6 +143,10 @@ modules:
             modules:
               - name: libjxl
                 buildsystem: cmake-ninja
+                cleanup:
+                  - /include
+                  - /lib/*.a
+                  - /lib/pkgconfig
                 config-opts:
                   - -DBUILD_TESTING=OFF
                   - -DJPEGXL_ENABLE_BENCHMARK=OFF
@@ -162,11 +170,14 @@ modules:
                 modules:
                   - name: highway
                     buildsystem: cmake-ninja
+                    cleanup:
+                      - /include
+                      - /lib/*.a
+                      - /lib/pkgconfig
                     config-opts:
                       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
                       - -DBUILD_TESTING=OFF
-                      - -DBUILD_STATIC_LIBS=ON
-                      - -DBUILD_SHARED_LIBS=OFF
+                      - -DBUILD_SHARED_LIBS=ON
                     sources:
                       - type: archive
                         url: https://github.com/google/highway/archive/refs/tags/1.0.5.tar.gz
