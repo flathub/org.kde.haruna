@@ -33,6 +33,12 @@ modules:
         sha256: 0435b336d9a19097920f1d92fe5df2e352a9431bd84ce6a34fe225930ea38ede
     modules:
       - name: libmpv
+        cleanup:
+          - /share/bash-completion
+          - /share/zsh
+          - /share/doc
+          - /share/icons
+          - /share/applications
         buildsystem: meson
         config-opts:
           - -Dlibmpv=true
