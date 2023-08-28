@@ -13,6 +13,7 @@ finish-args:
   - --socket=pulseaudio
   - --device=dri
   - --filesystem=host:ro
+  - --filesystem=home
   - --talk-name=org.freedesktop.ScreenSaver
   - --own-name=org.mpris.MediaPlayer2.haruna
   - --env=LC_NUMERIC=C
