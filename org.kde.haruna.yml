@@ -118,6 +118,7 @@ modules:
               - --enable-shared
               - --enable-gnutls
               - --enable-gpl
+              - --enable-version3
               - --enable-encoder=png,libwebp,libjxl
               - --enable-libv4l2
               - --enable-libdav1d
