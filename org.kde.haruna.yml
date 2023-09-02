@@ -12,10 +12,19 @@ finish-args:
   - --socket=wayland
   - --socket=pulseaudio
   - --device=dri
-  - --filesystem=host
+  - --filesystem=host:ro
+  - --filesystem=home
+  - --filesystem=xdg-run/pipewire-0:ro
   - --talk-name=org.freedesktop.ScreenSaver
   - --own-name=org.mpris.MediaPlayer2.haruna
   - --env=LC_NUMERIC=C
+cleanup:
+  - '*.a'
+  - '*.la'
+  - /include
+  - /lib/cmake
+  - /lib/pkgconfig
+  - /share/man
 modules:
   - name: haruna
     buildsystem: cmake-ninja
@@ -26,9 +35,11 @@ modules:
     modules:
       - name: libmpv
         cleanup:
-          - /include
-          - /lib/pkgconfig
-          - /share/man
+          - /share/bash-completion
+          - /share/zsh
+          - /share/doc
+          - /share/icons
+          - /share/applications
         buildsystem: meson
         config-opts:
           - -Dlibmpv=true
@@ -51,10 +62,6 @@ modules:
 
           - name: libXpresent
             buildsystem: autotools
-            cleanup:
-              - /lib/*.a
-              - /lib/*.la
-              - /lib/pkgconfig
             sources:
               - type: archive
                 url: https://xorg.freedesktop.org/archive/individual/lib/libXpresent-1.0.1.tar.xz
@@ -69,12 +76,6 @@ modules:
             cleanup:
               - /sbin
               - /bin
-              - /include
-              - /lib/*.la
-              - /lib/*/*.la
-              - /lib*/*/*/*.la
-              - /lib/pkgconfig
-              - /share/man
             config-opts:
               - --disable-static
               - --disable-bpf
@@ -107,8 +108,6 @@ modules:
 
           - name: ffmpeg
             cleanup:
-              - /include
-              - /lib/pkgconfig
               - /share/ffmpeg/examples
             config-opts:
               - --disable-debug
@@ -120,6 +119,7 @@ modules:
               - --enable-shared
               - --enable-gnutls
               - --enable-gpl
+              - --enable-version3
               - --enable-encoder=png,libwebp,libjxl
               - --enable-libv4l2
               - --enable-libdav1d
@@ -143,10 +143,6 @@ modules:
             modules:
               - name: libjxl
                 buildsystem: cmake-ninja
-                cleanup:
-                  - /include
-                  - /lib/*.a
-                  - /lib/pkgconfig
                 config-opts:
                   - -DBUILD_TESTING=OFF
                   - -DJPEGXL_ENABLE_BENCHMARK=OFF
@@ -170,10 +166,6 @@ modules:
                 modules:
                   - name: highway
                     buildsystem: cmake-ninja
-                    cleanup:
-                      - /include
-                      - /lib/*.a
-                      - /lib/pkgconfig
                     config-opts:
                       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
                       - -DBUILD_TESTING=OFF
@@ -189,10 +181,6 @@ modules:
                           url-template: https://github.com/google/highway/archive/refs/tags/$version.tar.gz
 
           - name: libass
-            cleanup:
-              - /include
-              - /lib/*.la
-              - /lib/pkgconfig
             config-opts:
               - --disable-static
             sources:
@@ -212,9 +200,6 @@ modules:
               - -DBUILD_STATIC=0
             cleanup:
               - /bin
-              - /include
-              - /lib/pkgconfig
-              - /share/man
             sources:
               - type: archive
                 url: https://www.freedesktop.org/software/uchardet/releases/uchardet-0.0.8.tar.xz
