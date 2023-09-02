@@ -14,6 +14,7 @@ finish-args:
   - --device=dri
   - --filesystem=host:ro
   - --filesystem=home
+  - --filesystem=xdg-run/pipewire-0:ro
   - --talk-name=org.freedesktop.ScreenSaver
   - --own-name=org.mpris.MediaPlayer2.haruna
   - --env=LC_NUMERIC=C
