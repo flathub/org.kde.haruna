@@ -156,8 +156,8 @@ modules:
                   - -DJPEGXL_ENABLE_VIEWERS=OFF
                 sources:
                   - type: archive
-                    url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.9-snapshot.tar.gz
-                    sha256: 2177f72fb141dce69d071c24864fbebc9aa7133e8dda212783609e1996024078
+                    url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.8.2.tar.gz
+                    sha256: c70916fb3ed43784eb840f82f05d390053a558e2da106e40863919238fa7b420
                     x-checker-data:
                       type: anitya
                       project-id: 232764
