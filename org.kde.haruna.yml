@@ -98,8 +98,8 @@ modules:
               - PREFIX=/app
             sources:
               - type: archive
-                url: https://github.com/FFmpeg/nv-codec-headers/archive/refs/tags/n12.0.16.0.tar.gz
-                sha256: 2a1533b65f55f9da52956faf0627ed3b74868ac0c7f269990edd21369113b48f
+                url: https://github.com/FFmpeg/nv-codec-headers/archive/refs/tags/n12.1.14.0.tar.gz
+                sha256: 2fefaa227d2a3b4170797796425a59d1dd2ed5fd231db9b4244468ba327acd0b
                 x-checker-data:
                   type: anitya
                   project-id: 223796
