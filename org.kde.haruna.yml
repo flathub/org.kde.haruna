@@ -220,8 +220,8 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.09.24.tar.gz
-            sha256: 15e88073dc257527375aea5f0622cb0b73718a035d0731f086a680a8e2d566e9
+            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.10.07.tar.gz
+            sha256: d7af1d6b041a809a206123a07741bbc6f35d329d671a758c2bc02932f97d9eee
             x-checker-data:
               type: anitya
               project-id: 143399
