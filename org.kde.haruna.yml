@@ -98,8 +98,8 @@ modules:
               - PREFIX=/app
             sources:
               - type: archive
-                url: https://github.com/FFmpeg/nv-codec-headers/archive/refs/tags/n12.0.16.0.tar.gz
-                sha256: 2a1533b65f55f9da52956faf0627ed3b74868ac0c7f269990edd21369113b48f
+                url: https://github.com/FFmpeg/nv-codec-headers/archive/refs/tags/n12.1.14.0.tar.gz
+                sha256: 2fefaa227d2a3b4170797796425a59d1dd2ed5fd231db9b4244468ba327acd0b
                 x-checker-data:
                   type: anitya
                   project-id: 223796
@@ -156,8 +156,8 @@ modules:
                   - -DJPEGXL_ENABLE_VIEWERS=OFF
                 sources:
                   - type: archive
-                    url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.9-snapshot.tar.gz
-                    sha256: 2177f72fb141dce69d071c24864fbebc9aa7133e8dda212783609e1996024078
+                    url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.8.2.tar.gz
+                    sha256: c70916fb3ed43784eb840f82f05d390053a558e2da106e40863919238fa7b420
                     x-checker-data:
                       type: anitya
                       project-id: 232764
@@ -220,8 +220,8 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.07.06.tar.gz
-            sha256: dcb9dd73745b647756d3b23b705514affe456253e482f0f0a1b5be84e9e29208
+            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2023.10.13.tar.gz
+            sha256: e279e2eb2f710fb339fc95ee63175b14e70a1deb3956924427940e9dbcac86f6
             x-checker-data:
               type: anitya
               project-id: 143399
