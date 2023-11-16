@@ -133,8 +133,8 @@ modules:
               - --enable-libjxl
             sources:
               - type: archive
-                url: https://ffmpeg.org/releases/ffmpeg-6.0.tar.gz
-                sha256: f4ccf961403752c93961927715f524576d1f4dd02cd76d8c76aed3bbe6686656
+                url: https://ffmpeg.org/releases/ffmpeg-6.1.tar.gz
+                sha256: 938dd778baa04d353163ca5cb06c909c918850055f549205b29b1224e45a5316
                 x-checker-data:
                   type: anitya
                   project-id: 5405
