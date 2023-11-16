@@ -30,8 +30,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://download.kde.org/stable/haruna/haruna-0.12.2.tar.xz
-        sha256: 8a1b9e58079beb86052f7d1cfd147c4eb4a753dc432533f008fc4d5f70bb8273
+        url: https://download.kde.org/stable/haruna/haruna-0.12.3.tar.xz
+        sha256: d0202e0060ae86e10c461e7529f6de6b67f8281bf7b82c845479f46772b9fa6f
     modules:
       - name: libmpv
         cleanup:
