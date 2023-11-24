@@ -92,6 +92,19 @@ modules:
                     sha256: 73ef167a919c93861f21b86a3cd6dc595b3a41c04902a4b94c8611d3eaaaccab
                 cleanup:
                 - "*"
+
+              - name: glslang
+                buildsystem: cmake-ninja
+                config-opts:
+                  - -DBUILD_SHARED_LIBS=ON
+                cleanup:
+                  - /bin
+                  - /include
+                  - /lib/cmake
+                sources:
+                  - type: archive
+                    url: https://github.com/KhronosGroup/glslang/archive/refs/tags/13.1.1.tar.gz
+                    sha256: 7795a97450fecd9779f3d821858fbc2d1a3bf1dd602617d95b685ccbcabc302f
                   
           - name: libXpresent
             buildsystem: autotools
