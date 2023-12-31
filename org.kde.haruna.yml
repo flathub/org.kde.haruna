@@ -196,8 +196,8 @@ modules:
               - --enable-libjxl
             sources:
               - type: archive
-                url: https://ffmpeg.org/releases/ffmpeg-6.1.tar.gz
-                sha256: 938dd778baa04d353163ca5cb06c909c918850055f549205b29b1224e45a5316
+                url: https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.gz
+                sha256: b0aee531e4a91fed6bc031445dfc3ad8eb36de1fcb0fa2acdb589ecc9f8dc9cb
                 x-checker-data:
                   type: anitya
                   project-id: 5405
@@ -219,8 +219,8 @@ modules:
                   - -DJPEGXL_ENABLE_VIEWERS=OFF
                 sources:
                   - type: archive
-                    url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.8.2.tar.gz
-                    sha256: c70916fb3ed43784eb840f82f05d390053a558e2da106e40863919238fa7b420
+                    url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.9.0.tar.gz
+                    sha256: d83bbe188d8fa9725bb75109c922c37fcff8c3b802808f3a6c2c14aaf8337d9f
                     x-checker-data:
                       type: anitya
                       project-id: 232764
