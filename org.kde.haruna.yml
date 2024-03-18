@@ -201,6 +201,7 @@ modules:
                   - --enable-libmp3lame
                   - --enable-libwebp
                   - --enable-libjxl
+                  - --enable-libxml2
                 sources:
                   - type: archive
                     url: https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.gz
