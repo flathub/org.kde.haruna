@@ -30,8 +30,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://cdn.download.kde.org/stable/haruna/haruna-1.0.1.tar.xz
-        sha256: f791f4b5da51ffd4c0e62cd71e819a8a003c0c79fb23047161b56bbc6d68407d
+        url: https://cdn.download.kde.org/stable/haruna/haruna-1.0.2.tar.xz
+        sha256: 656acdc4729d369ecccafdb270899244952baa237700335cae887048dd3faef1
     modules:
       - name: mpvqt
         buildsystem: cmake-ninja
