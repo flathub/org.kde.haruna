@@ -64,6 +64,8 @@ modules:
                   project-id: 5348
                   stable-only: true
                   url-template: https://github.com/mpv-player/mpv/archive/refs/tags/v$version.tar.gz
+              - type: patch
+                path: 0001-fix-build-with-ffmpeg-7.patch
             modules:
               - shared-modules/luajit/luajit.json
 
