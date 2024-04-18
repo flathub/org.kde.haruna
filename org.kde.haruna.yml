@@ -57,8 +57,8 @@ modules:
               - -Dmanpage-build=disabled
             sources:
               - type: archive
-                url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz
-                sha256: 1d2d4adbaf048a2fa6ee134575032c4b2dad9a7efafd5b3e69b88db935afaddf
+                url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.38.0.tar.gz
+                sha256: 86d9ef40b6058732f67b46d0bbda24a074fae860b3eaae05bab3145041303066
                 x-checker-data:
                   type: anitya
                   project-id: 5348
@@ -204,8 +204,8 @@ modules:
                   - --enable-libxml2
                 sources:
                   - type: archive
-                    url: https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.gz
-                    sha256: b0aee531e4a91fed6bc031445dfc3ad8eb36de1fcb0fa2acdb589ecc9f8dc9cb
+                    url: https://ffmpeg.org/releases/ffmpeg-7.0.tar.gz
+                    sha256: 943a2a28044947c17a905c39075494b0da46ec0795224c2c61eff986518321eb
                     x-checker-data:
                       type: anitya
                       project-id: 5405
