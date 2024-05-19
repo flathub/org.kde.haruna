@@ -104,8 +104,8 @@ modules:
                       - /lib/cmake
                     sources:
                       - type: archive
-                        url: https://github.com/KhronosGroup/glslang/archive/14.1.0.tar.gz
-                        sha256: b5e4c36d60eda7613f36cfee3489c6f507156829c707e1ecd7f48ca45b435322
+                        url: https://github.com/KhronosGroup/glslang/archive/14.2.0.tar.gz
+                        sha256: 14a2edbb509cb3e51a9a53e3f5e435dbf5971604b4b833e63e6076e8c0a997b5
                         x-checker-data:
                           type: anitya
                           project-id: 205796
@@ -257,8 +257,8 @@ modules:
                   - --disable-static
                 sources:
                   - type: archive
-                    url: https://github.com/libass/libass/releases/download/0.17.1/libass-0.17.1.tar.gz
-                    sha256: d653be97198a0543c69111122173c41a99e0b91426f9e17f06a858982c2fb03d
+                    url: https://github.com/libass/libass/releases/download/0.17.2/libass-0.17.2.tar.gz
+                    sha256: a9afb52bf76a2569263fe2038896774c991b35c0968342a03be708e56ea60c3b
                     x-checker-data:
                       type: anitya
                       project-id: 1560
