@@ -204,8 +204,8 @@ modules:
                   - --enable-libxml2
                 sources:
                   - type: archive
-                    url: https://ffmpeg.org/releases/ffmpeg-7.0.tar.gz
-                    sha256: 943a2a28044947c17a905c39075494b0da46ec0795224c2c61eff986518321eb
+                    url: https://ffmpeg.org/releases/ffmpeg-7.0.1.tar.gz
+                    sha256: e273eae00b4f833595654c1ee2b2349240e0332f9dbf3c4cadd39df9819ff052
                     x-checker-data:
                       type: anitya
                       project-id: 5405
@@ -244,8 +244,8 @@ modules:
                           - -DBUILD_SHARED_LIBS=ON
                         sources:
                           - type: archive
-                            url: https://github.com/google/highway/archive/refs/tags/1.1.0.tar.gz
-                            sha256: 354a8b4539b588e70b98ec70844273e3f2741302c4c377bcc4e81b3d1866f7c9
+                            url: https://github.com/google/highway/archive/refs/tags/1.2.0.tar.gz
+                            sha256: 7e0be78b8318e8bdbf6fa545d2ecb4c90f947df03f7aadc42c1967f019e63343
                             x-checker-data:
                               type: anitya
                               project-id: 205809
@@ -292,8 +292,8 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.04.09.tar.gz
-            sha256: fa2a21946b886f914ccc5ee18a9dc41b628745a51e04d136c6baec06ed4bded6
+            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2024.05.27.tar.gz
+            sha256: 718cc1e0b7a89a18d35fad0b5ad50fe37bf2aa4ff47bde374328ddca79670a3c
             x-checker-data:
               type: anitya
               project-id: 143399
