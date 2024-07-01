@@ -63,7 +63,24 @@ modules:
                   stable-only: true
                   url-template: https://github.com/mpv-player/mpv/archive/refs/tags/v$version.tar.gz
             modules:
-              - shared-modules/luajit/luajit.json
+              - name: luajit
+                no-autogen: true
+                make-args:
+                  - BUILDMODE=dynamic
+                  - 'PREFIX=${FLATPAK_DEST}'
+                make-install-args:
+                  - 'PREFIX=${FLATPAK_DEST}'
+                sources:
+                  - type: git
+                    url: https://github.com/openresty/luajit2.git
+                    tag: v2.1-20240314
+                    commit: 15f58c9648ee40a3fb6617e22e2f3fdff80d66b8
+                    x-checker-data:
+                      type: git
+                      tag-pattern: '^v([\d.-]+)$'
+                      stable-only: false
+                cleanup:
+                  - /bin
 
               - name: libplacebo
                 buildsystem: meson
