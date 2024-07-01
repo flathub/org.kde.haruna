@@ -67,17 +67,17 @@ modules:
                 no-autogen: true
                 make-args:
                   - BUILDMODE=dynamic
-                  - 'PREFIX=${FLATPAK_DEST}'
+                  - PREFIX=${FLATPAK_DEST}
                 make-install-args:
-                  - 'PREFIX=${FLATPAK_DEST}'
+                  - PREFIX=${FLATPAK_DEST}
                 sources:
                   - type: git
                     url: https://github.com/openresty/luajit2.git
-                    tag: v2.1-20240314
-                    commit: 15f58c9648ee40a3fb6617e22e2f3fdff80d66b8
+                    tag: v2.1-20240626
+                    commit: dc397b66e6c8065185343cbe5dbeb4532f8e0b92
                     x-checker-data:
                       type: git
-                      tag-pattern: '^v([\d.-]+)$'
+                      tag-pattern: ^v([\d.-]+)$
                       stable-only: false
                 cleanup:
                   - /bin
