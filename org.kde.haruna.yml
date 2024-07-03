@@ -67,17 +67,17 @@ modules:
                 no-autogen: true
                 make-args:
                   - BUILDMODE=dynamic
-                  - 'PREFIX=${FLATPAK_DEST}'
+                  - PREFIX=${FLATPAK_DEST}
                 make-install-args:
-                  - 'PREFIX=${FLATPAK_DEST}'
+                  - PREFIX=${FLATPAK_DEST}
                 sources:
                   - type: git
                     url: https://github.com/openresty/luajit2.git
-                    tag: v2.1-20240314
-                    commit: 15f58c9648ee40a3fb6617e22e2f3fdff80d66b8
+                    tag: v2.1-20240626
+                    commit: dc397b66e6c8065185343cbe5dbeb4532f8e0b92
                     x-checker-data:
                       type: git
-                      tag-pattern: '^v([\d.-]+)$'
+                      tag-pattern: ^v([\d.-]+)$
                       stable-only: false
                 cleanup:
                   - /bin
@@ -89,8 +89,8 @@ modules:
                   - -Ddemos=False
                 sources:
                   - type: archive
-                    url: https://code.videolan.org/videolan/libplacebo/-/archive/v6.338.2/libplacebo-v6.338.2.tar.gz
-                    sha256: d029adbe55bba8aed7aed2c48b0b66081dddfb9d42683a709342e33aa666c544
+                    url: https://code.videolan.org/videolan/libplacebo/-/archive/v7.349.0/libplacebo-v7.349.0.tar.gz
+                    sha256: 79120e685a1836344b51b13b6a5661622486a84e4d4a35f6c8d01679a20fbc86
                     x-checker-data:
                       type: anitya
                       project-id: 20101
@@ -119,8 +119,8 @@ modules:
                       - /lib/cmake
                     sources:
                       - type: archive
-                        url: https://github.com/KhronosGroup/glslang/archive/14.2.0.tar.gz
-                        sha256: 14a2edbb509cb3e51a9a53e3f5e435dbf5971604b4b833e63e6076e8c0a997b5
+                        url: https://github.com/KhronosGroup/glslang/archive/14.3.0.tar.gz
+                        sha256: be6339048e20280938d9cb399fcdd06e04f8654d43e170e8cce5a56c9a754284
                         x-checker-data:
                           type: anitya
                           project-id: 205796
@@ -243,8 +243,8 @@ modules:
                       - -DJPEGXL_ENABLE_VIEWERS=OFF
                     sources:
                       - type: archive
-                        url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.10.2.tar.gz
-                        sha256: 95e807f63143856dc4d161c071cca01115d2c6405b3d3209854ac6989dc6bb91
+                        url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.10.3.tar.gz
+                        sha256: e0191411cfcd927eebe5392d030fe4283fe27ba1685ab7265104936e0b4283a6
                         x-checker-data:
                           type: anitya
                           project-id: 232764
@@ -272,8 +272,8 @@ modules:
                   - --disable-static
                 sources:
                   - type: archive
-                    url: https://github.com/libass/libass/releases/download/0.17.2/libass-0.17.2.tar.gz
-                    sha256: a9afb52bf76a2569263fe2038896774c991b35c0968342a03be708e56ea60c3b
+                    url: https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.gz
+                    sha256: da7c348deb6fa6c24507afab2dee7545ba5dd5bbf90a137bfe9e738f7df68537
                     x-checker-data:
                       type: anitya
                       project-id: 1560
