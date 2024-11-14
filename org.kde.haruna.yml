@@ -16,6 +16,7 @@ finish-args:
   - --filesystem=home
   - --talk-name=org.freedesktop.ScreenSaver
   - --own-name=org.mpris.MediaPlayer2.haruna
+  - --system-talk-name=org.freedesktop.UDisks2
 cleanup:
   - '*.a'
   - '*.la'
