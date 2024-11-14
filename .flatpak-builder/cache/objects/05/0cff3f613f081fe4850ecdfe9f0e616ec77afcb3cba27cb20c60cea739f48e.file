@@ -1,0 +1,490 @@
+#include <QtQml/qqmlprivate.h>
+#include <QtCore/qdir.h>
+#include <QtCore/qurl.h>
+#include <QtCore/qhash.h>
+#include <QtCore/qstring.h>
+
+namespace QmlCacheGeneratedCode {
+namespace _qt_qml_org_kde_haruna_qml_Actions_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_FloatingFooter_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Footer_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Header_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_HProgressBar_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_MenuBarLoader_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_MpvVideo_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Osd_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_PlayList_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_PlayListItem_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_PlayListItemCompact_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_PlayListItemWithThumbnail_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_VolumeSlider_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Main_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_AudioTracksMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_ColorPickerButton_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_HamburgerMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_ImageAdjustmentSlider_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_InputPopup_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_LabelWithTooltip_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_SelectActionPopup_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_SettingsBasePage_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_SettingsHeader_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_SubtitlesFolders_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_SubtitleTracksMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Haruna_Components_ToolTipButton_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_AudioMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_ContextMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_FileMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_HelpMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_PlaybackMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_SettingsMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_SubtitlesMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_VideoMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_ViewMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_Global_GlobalAudioMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_Global_GlobalFileMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_Global_GlobalHelpMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_Global_GlobalPlaybackMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_Global_GlobalSettingsMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_Global_GlobalSubtitlesMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_Global_GlobalVideoMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Menus_Global_GlobalViewMenu_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_GeneralSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_PlaybackSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_VideoSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_AudioSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_SubtitlesSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_PlaylistSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_MouseSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_ShortcutsSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_CustomCommandsSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_EditCustomCommand_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_DebugSettings_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_org_kde_haruna_qml_Settings_SettingsWindow_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+
+}
+namespace {
+struct Registry {
+    Registry();
+    ~Registry();
+    QHash<QString, const QQmlPrivate::CachedQmlUnit*> resourcePathToCachedUnit;
+    static const QQmlPrivate::CachedQmlUnit *lookupCachedUnit(const QUrl &url);
+};
+
+Q_GLOBAL_STATIC(Registry, unitRegistry)
+
+
+Registry::Registry() {
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Actions.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Actions_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/FloatingFooter.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_FloatingFooter_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Footer.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Footer_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Header.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Header_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/HProgressBar.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_HProgressBar_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/MenuBarLoader.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_MenuBarLoader_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/MpvVideo.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_MpvVideo_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Osd.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Osd_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/PlayList.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_PlayList_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/PlayListItem.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_PlayListItem_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/PlayListItemCompact.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_PlayListItemCompact_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/PlayListItemWithThumbnail.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_PlayListItemWithThumbnail_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/VolumeSlider.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_VolumeSlider_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/AudioTracksMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_AudioTracksMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/ColorPickerButton.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_ColorPickerButton_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/HamburgerMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_HamburgerMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/ImageAdjustmentSlider.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_ImageAdjustmentSlider_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/InputPopup.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_InputPopup_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/LabelWithTooltip.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_LabelWithTooltip_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/SelectActionPopup.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_SelectActionPopup_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/SettingsBasePage.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_SettingsBasePage_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/SettingsHeader.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_SettingsHeader_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/SubtitlesFolders.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_SubtitlesFolders_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/SubtitleTracksMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_SubtitleTracksMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Haruna/Components/ToolTipButton.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Haruna_Components_ToolTipButton_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/AudioMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_AudioMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/ContextMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_ContextMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/FileMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_FileMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/HelpMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_HelpMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/PlaybackMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_PlaybackMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/SettingsMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_SettingsMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/SubtitlesMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_SubtitlesMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/VideoMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_VideoMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/ViewMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_ViewMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/Global/GlobalAudioMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_Global_GlobalAudioMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/Global/GlobalFileMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_Global_GlobalFileMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/Global/GlobalHelpMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_Global_GlobalHelpMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/Global/GlobalPlaybackMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_Global_GlobalPlaybackMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/Global/GlobalSettingsMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_Global_GlobalSettingsMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/Global/GlobalSubtitlesMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_Global_GlobalSubtitlesMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/Global/GlobalVideoMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_Global_GlobalVideoMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Menus/Global/GlobalViewMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Menus_Global_GlobalViewMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/GeneralSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_GeneralSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/PlaybackSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_PlaybackSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/VideoSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_VideoSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/AudioSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_AudioSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/SubtitlesSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_SubtitlesSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/PlaylistSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_PlaylistSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/MouseSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_MouseSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/ShortcutsSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_ShortcutsSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/CustomCommandsSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_CustomCommandsSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/EditCustomCommand.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_EditCustomCommand_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/DebugSettings.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_DebugSettings_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/org/kde/haruna/qml/Settings/SettingsWindow.qml"), &QmlCacheGeneratedCode::_qt_qml_org_kde_haruna_qml_Settings_SettingsWindow_qml::unit);
+    QQmlPrivate::RegisterQmlUnitCacheHook registration;
+    registration.structVersion = 0;
+    registration.lookupCachedQmlUnit = &lookupCachedUnit;
+    QQmlPrivate::qmlregister(QQmlPrivate::QmlUnitCacheHookRegistration, &registration);
+}
+
+Registry::~Registry() {
+    QQmlPrivate::qmlunregister(QQmlPrivate::QmlUnitCacheHookRegistration, quintptr(&lookupCachedUnit));
+}
+
+const QQmlPrivate::CachedQmlUnit *Registry::lookupCachedUnit(const QUrl &url) {
+    if (url.scheme() != QLatin1String("qrc"))
+        return nullptr;
+    QString resourcePath = QDir::cleanPath(url.path());
+    if (resourcePath.isEmpty())
+        return nullptr;
+    if (!resourcePath.startsWith(QLatin1Char('/')))
+        resourcePath.prepend(QLatin1Char('/'));
+    return unitRegistry()->resourcePathToCachedUnit.value(resourcePath, nullptr);
+}
+}
+int QT_MANGLE_NAMESPACE(qInitResources_qmlcache_haruna)() {
+    ::unitRegistry();
+    return 1;
+}
+Q_CONSTRUCTOR_FUNCTION(QT_MANGLE_NAMESPACE(qInitResources_qmlcache_haruna))
+int QT_MANGLE_NAMESPACE(qCleanupResources_qmlcache_haruna)() {
+    return 1;
+}

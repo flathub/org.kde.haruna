@@ -1,0 +1,444 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'playlistmodel.h'
+**
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../models/playlistmodel.h"
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'playlistmodel.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSPlaylistProxyModelENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSPlaylistProxyModelENDCLASS = QtMocHelpers::stringData(
+    "PlaylistProxyModel",
+    "QML.Element",
+    "sortItems",
+    "",
+    "Sort",
+    "sortMode",
+    "getPlayingItem",
+    "setPlayingItem",
+    "i",
+    "playNext",
+    "playPrevious",
+    "saveM3uFile",
+    "path",
+    "highlightInFileManager",
+    "row",
+    "removeItem",
+    "renameFile",
+    "trashFile",
+    "copyFileName",
+    "copyFilePath",
+    "getFilePath",
+    "NameAscending",
+    "NameDescending",
+    "DurationAscending",
+    "DurationDescending"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSPlaylistProxyModelENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       1,   14, // classinfo
+      13,   16, // methods
+       0,    0, // properties
+       1,  127, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // classinfo: key, value
+       1,    0,
+
+ // methods: name, argc, parameters, tag, flags, initial metatype offsets
+       2,    1,   94,    3, 0x02,    2 /* Public */,
+       6,    0,   97,    3, 0x02,    4 /* Public */,
+       7,    1,   98,    3, 0x02,    5 /* Public */,
+       9,    0,  101,    3, 0x02,    7 /* Public */,
+      10,    0,  102,    3, 0x02,    8 /* Public */,
+      11,    1,  103,    3, 0x02,    9 /* Public */,
+      13,    1,  106,    3, 0x02,   11 /* Public */,
+      15,    1,  109,    3, 0x02,   13 /* Public */,
+      16,    1,  112,    3, 0x02,   15 /* Public */,
+      17,    1,  115,    3, 0x02,   17 /* Public */,
+      18,    1,  118,    3, 0x02,   19 /* Public */,
+      19,    1,  121,    3, 0x02,   21 /* Public */,
+      20,    1,  124,    3, 0x02,   23 /* Public */,
+
+ // methods: parameters
+    QMetaType::Void, 0x80000000 | 4,    5,
+    QMetaType::Int,
+    QMetaType::Void, QMetaType::Int,    8,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   12,
+    QMetaType::Void, QMetaType::Int,   14,
+    QMetaType::Void, QMetaType::Int,   14,
+    QMetaType::Void, QMetaType::Int,   14,
+    QMetaType::Void, QMetaType::Int,   14,
+    QMetaType::Void, QMetaType::Int,   14,
+    QMetaType::Void, QMetaType::Int,   14,
+    QMetaType::QString, QMetaType::Int,   14,
+
+ // enums: name, alias, flags, count, data
+       4,    4, 0x2,    4,  132,
+
+ // enum data: key, value
+      21, uint(PlaylistProxyModel::Sort::NameAscending),
+      22, uint(PlaylistProxyModel::Sort::NameDescending),
+      23, uint(PlaylistProxyModel::Sort::DurationAscending),
+      24, uint(PlaylistProxyModel::Sort::DurationDescending),
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject PlaylistProxyModel::staticMetaObject = { {
+    QMetaObject::SuperData::link<QSortFilterProxyModel::staticMetaObject>(),
+    qt_meta_stringdata_CLASSPlaylistProxyModelENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSPlaylistProxyModelENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_metaTypeArray<
+        // enum 'Sort'
+        PlaylistProxyModel::Sort,
+        // Q_OBJECT / Q_GADGET
+        PlaylistProxyModel,
+        // method 'sortItems'
+        void,
+        Sort,
+        // method 'getPlayingItem'
+        int,
+        // method 'setPlayingItem'
+        void,
+        int,
+        // method 'playNext'
+        void,
+        // method 'playPrevious'
+        void,
+        // method 'saveM3uFile'
+        void,
+        const QString &,
+        // method 'highlightInFileManager'
+        void,
+        int,
+        // method 'removeItem'
+        void,
+        int,
+        // method 'renameFile'
+        void,
+        int,
+        // method 'trashFile'
+        void,
+        int,
+        // method 'copyFileName'
+        void,
+        int,
+        // method 'copyFilePath'
+        void,
+        int,
+        // method 'getFilePath'
+        QString,
+        int
+    >,
+    nullptr
+} };
+
+void PlaylistProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<PlaylistProxyModel *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->sortItems((*reinterpret_cast< std::add_pointer_t<Sort>>(_a[1]))); break;
+        case 1: { int _r = _t->getPlayingItem();
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
+        case 2: _t->setPlayingItem((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 3: _t->playNext(); break;
+        case 4: _t->playPrevious(); break;
+        case 5: _t->saveM3uFile((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 6: _t->highlightInFileManager((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 7: _t->removeItem((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 8: _t->renameFile((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 9: _t->trashFile((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 10: _t->copyFileName((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 11: _t->copyFilePath((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 12: { QString _r = _t->getFilePath((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject *PlaylistProxyModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *PlaylistProxyModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSPlaylistProxyModelENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int PlaylistProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 13)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 13;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 13)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 13;
+    }
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSPlaylistModelENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSPlaylistModelENDCLASS = QtMocHelpers::stringData(
+    "PlaylistModel",
+    "QML.Element",
+    "itemAdded",
+    "",
+    "index",
+    "path",
+    "playingItemChanged",
+    "clear",
+    "addItem",
+    "PlaylistModel::Behaviour",
+    "behaviour",
+    "url",
+    "Roles",
+    "NameRole",
+    "TitleRole",
+    "DurationRole",
+    "PathRole",
+    "FolderPathRole",
+    "PlayingRole",
+    "IsLocalRole",
+    "Behaviour",
+    "Append",
+    "Clear"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSPlaylistModelENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       1,   14, // classinfo
+       5,   16, // methods
+       0,    0, // properties
+       2,   63, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // classinfo: key, value
+       1,    0,
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       2,    2,   46,    3, 0x06,    3 /* Public */,
+       6,    0,   51,    3, 0x06,    6 /* Public */,
+
+ // methods: name, argc, parameters, tag, flags, initial metatype offsets
+       7,    0,   52,    3, 0x02,    7 /* Public */,
+       8,    2,   53,    3, 0x02,    8 /* Public */,
+       8,    2,   58,    3, 0x02,   11 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::Int, QMetaType::QString,    4,    5,
+    QMetaType::Void,
+
+ // methods: parameters
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString, 0x80000000 | 9,    5,   10,
+    QMetaType::Void, QMetaType::QUrl, 0x80000000 | 9,   11,   10,
+
+ // enums: name, alias, flags, count, data
+      12,   12, 0x0,    7,   73,
+      20,   20, 0x0,    2,   87,
+
+ // enum data: key, value
+      13, uint(PlaylistModel::NameRole),
+      14, uint(PlaylistModel::TitleRole),
+      15, uint(PlaylistModel::DurationRole),
+      16, uint(PlaylistModel::PathRole),
+      17, uint(PlaylistModel::FolderPathRole),
+      18, uint(PlaylistModel::PlayingRole),
+      19, uint(PlaylistModel::IsLocalRole),
+      21, uint(PlaylistModel::Append),
+      22, uint(PlaylistModel::Clear),
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject PlaylistModel::staticMetaObject = { {
+    QMetaObject::SuperData::link<QAbstractListModel::staticMetaObject>(),
+    qt_meta_stringdata_CLASSPlaylistModelENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSPlaylistModelENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_metaTypeArray<
+        // enum 'Roles'
+        PlaylistModel::Roles,
+        // enum 'Behaviour'
+        PlaylistModel::Behaviour,
+        // Q_OBJECT / Q_GADGET
+        PlaylistModel,
+        // method 'itemAdded'
+        void,
+        int,
+        const QString &,
+        // method 'playingItemChanged'
+        void,
+        // method 'clear'
+        void,
+        // method 'addItem'
+        void,
+        const QString &,
+        PlaylistModel::Behaviour,
+        // method 'addItem'
+        void,
+        const QUrl &,
+        PlaylistModel::Behaviour
+    >,
+    nullptr
+} };
+
+void PlaylistModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<PlaylistModel *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->itemAdded((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
+        case 1: _t->playingItemChanged(); break;
+        case 2: _t->clear(); break;
+        case 3: _t->addItem((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<PlaylistModel::Behaviour>>(_a[2]))); break;
+        case 4: _t->addItem((*reinterpret_cast< std::add_pointer_t<QUrl>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<PlaylistModel::Behaviour>>(_a[2]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+        case 3:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 1:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< PlaylistModel::Behaviour >(); break;
+            }
+            break;
+        case 4:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 1:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< PlaylistModel::Behaviour >(); break;
+            }
+            break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (PlaylistModel::*)(int , const QString & );
+            if (_t _q_method = &PlaylistModel::itemAdded; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistModel::*)();
+            if (_t _q_method = &PlaylistModel::playingItemChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
+        }
+    }
+}
+
+const QMetaObject *PlaylistModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *PlaylistModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSPlaylistModelENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QAbstractListModel::qt_metacast(_clname);
+}
+
+int PlaylistModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractListModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void PlaylistModel::itemAdded(int _t1, const QString & _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void PlaylistModel::playingItemChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+QT_WARNING_POP

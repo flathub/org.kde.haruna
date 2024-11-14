@@ -1,0 +1,282 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'worker.h'
+**
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../worker.h"
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'worker.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSWorkerENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSWorkerENDCLASS = QtMocHelpers::stringData(
+    "Worker",
+    "metaDataReady",
+    "",
+    "index",
+    "KFileMetaData::PropertyMultiMap",
+    "metadata",
+    "thumbnailSuccess",
+    "path",
+    "image",
+    "thumbnailFail",
+    "mprisThumbnailSuccess",
+    "getMetaData",
+    "makePlaylistThumbnail",
+    "width",
+    "frameToImage",
+    "syncConfigValue",
+    "group",
+    "key",
+    "QVariant",
+    "value",
+    "saveWindowGeometry",
+    "QQuickWindow*",
+    "window",
+    "mprisThumbnail"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSWorkerENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      10,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       4,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    2,   74,    2, 0x06,    1 /* Public */,
+       6,    2,   79,    2, 0x06,    4 /* Public */,
+       9,    0,   84,    2, 0x06,    7 /* Public */,
+      10,    1,   85,    2, 0x06,    8 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+      11,    2,   88,    2, 0x0a,   10 /* Public */,
+      12,    2,   93,    2, 0x0a,   13 /* Public */,
+      14,    2,   98,    2, 0x0a,   16 /* Public */,
+      15,    4,  103,    2, 0x0a,   19 /* Public */,
+      20,    1,  112,    2, 0x10a,   24 /* Public | MethodIsConst  */,
+      23,    2,  115,    2, 0x0a,   26 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 4,    3,    5,
+    QMetaType::Void, QMetaType::QString, QMetaType::QImage,    7,    8,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QImage,    8,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::Int, QMetaType::QString,    3,    7,
+    QMetaType::Void, QMetaType::QString, QMetaType::Int,    7,   13,
+    QMetaType::QImage, QMetaType::QString, QMetaType::Int,    7,   13,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, 0x80000000 | 18,    7,   16,   17,   19,
+    QMetaType::Void, 0x80000000 | 21,   22,
+    QMetaType::Void, QMetaType::QString, QMetaType::Int,    7,   13,
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject Worker::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_CLASSWorkerENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSWorkerENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSWorkerENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<Worker, std::true_type>,
+        // method 'metaDataReady'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<KFileMetaData::PropertyMultiMap, std::false_type>,
+        // method 'thumbnailSuccess'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QImage &, std::false_type>,
+        // method 'thumbnailFail'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'mprisThumbnailSuccess'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QImage &, std::false_type>,
+        // method 'getMetaData'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'makePlaylistThumbnail'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'frameToImage'
+        QtPrivate::TypeAndForceComplete<QImage, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'syncConfigValue'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QVariant, std::false_type>,
+        // method 'saveWindowGeometry'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QQuickWindow *, std::false_type>,
+        // method 'mprisThumbnail'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>
+    >,
+    nullptr
+} };
+
+void Worker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<Worker *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->metaDataReady((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<KFileMetaData::PropertyMultiMap>>(_a[2]))); break;
+        case 1: _t->thumbnailSuccess((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QImage>>(_a[2]))); break;
+        case 2: _t->thumbnailFail(); break;
+        case 3: _t->mprisThumbnailSuccess((*reinterpret_cast< std::add_pointer_t<QImage>>(_a[1]))); break;
+        case 4: _t->getMetaData((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
+        case 5: _t->makePlaylistThumbnail((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
+        case 6: { QImage _r = _t->frameToImage((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QImage*>(_a[0]) = std::move(_r); }  break;
+        case 7: _t->syncConfigValue((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<QVariant>>(_a[4]))); break;
+        case 8: _t->saveWindowGeometry((*reinterpret_cast< std::add_pointer_t<QQuickWindow*>>(_a[1]))); break;
+        case 9: _t->mprisThumbnail((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+        case 0:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 1:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< KFileMetaData::PropertyMultiMap >(); break;
+            }
+            break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (Worker::*)(int , KFileMetaData::PropertyMultiMap );
+            if (_t _q_method = &Worker::metaDataReady; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (Worker::*)(const QString & , const QImage & );
+            if (_t _q_method = &Worker::thumbnailSuccess; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (Worker::*)();
+            if (_t _q_method = &Worker::thumbnailFail; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (Worker::*)(const QImage & );
+            if (_t _q_method = &Worker::mprisThumbnailSuccess; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 3;
+                return;
+            }
+        }
+    }
+}
+
+const QMetaObject *Worker::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Worker::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSWorkerENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int Worker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Worker::metaDataReady(int _t1, KFileMetaData::PropertyMultiMap _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void Worker::thumbnailSuccess(const QString & _t1, const QImage & _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void Worker::thumbnailFail()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+}
+
+// SIGNAL 3
+void Worker::mprisThumbnailSuccess(const QImage & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+QT_WARNING_POP

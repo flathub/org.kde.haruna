@@ -1,0 +1,565 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'playlistsettings.h'
+**
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../playlistsettings.h"
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'playlistsettings.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSPlaylistSettingsENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSPlaylistSettingsENDCLASS = QtMocHelpers::stringData(
+    "PlaylistSettings",
+    "PositionChanged",
+    "",
+    "StyleChanged",
+    "OverlayVideoChanged",
+    "ShowThumbnailsChanged",
+    "ShowMediaTitleChanged",
+    "LoadSiblingsChanged",
+    "RepeatChanged",
+    "ShowRowNumberChanged",
+    "CanToggleWithMouseChanged",
+    "BigFontFullscreenChanged",
+    "RememberStateChanged",
+    "VisibleChanged",
+    "ShowToolbarChanged",
+    "OpenWithSingleClickChanged",
+    "position",
+    "isPositionImmutable",
+    "style",
+    "isStyleImmutable",
+    "overlayVideo",
+    "isOverlayVideoImmutable",
+    "showThumbnails",
+    "isShowThumbnailsImmutable",
+    "showMediaTitle",
+    "isShowMediaTitleImmutable",
+    "loadSiblings",
+    "isLoadSiblingsImmutable",
+    "repeat",
+    "isRepeatImmutable",
+    "showRowNumber",
+    "isShowRowNumberImmutable",
+    "canToggleWithMouse",
+    "isCanToggleWithMouseImmutable",
+    "bigFontFullscreen",
+    "isBigFontFullscreenImmutable",
+    "rememberState",
+    "isRememberStateImmutable",
+    "visible",
+    "isVisibleImmutable",
+    "showToolbar",
+    "isShowToolbarImmutable",
+    "openWithSingleClick",
+    "isOpenWithSingleClickImmutable"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSPlaylistSettingsENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      14,   14, // methods
+      28,  112, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      14,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   98,    2, 0x06,   29 /* Public */,
+       3,    0,   99,    2, 0x06,   30 /* Public */,
+       4,    0,  100,    2, 0x06,   31 /* Public */,
+       5,    0,  101,    2, 0x06,   32 /* Public */,
+       6,    0,  102,    2, 0x06,   33 /* Public */,
+       7,    0,  103,    2, 0x06,   34 /* Public */,
+       8,    0,  104,    2, 0x06,   35 /* Public */,
+       9,    0,  105,    2, 0x06,   36 /* Public */,
+      10,    0,  106,    2, 0x06,   37 /* Public */,
+      11,    0,  107,    2, 0x06,   38 /* Public */,
+      12,    0,  108,    2, 0x06,   39 /* Public */,
+      13,    0,  109,    2, 0x06,   40 /* Public */,
+      14,    0,  110,    2, 0x06,   41 /* Public */,
+      15,    0,  111,    2, 0x06,   42 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+ // properties: name, type, flags, notifyId, revision
+      16, QMetaType::QString, 0x00015103, uint(0), 0,
+      17, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      18, QMetaType::QString, 0x00015103, uint(1), 0,
+      19, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      20, QMetaType::Bool, 0x00015103, uint(2), 0,
+      21, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      22, QMetaType::Bool, 0x00015103, uint(3), 0,
+      23, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      24, QMetaType::Bool, 0x00015103, uint(4), 0,
+      25, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      26, QMetaType::Bool, 0x00015103, uint(5), 0,
+      27, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      28, QMetaType::Bool, 0x00015103, uint(6), 0,
+      29, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      30, QMetaType::Bool, 0x00015103, uint(7), 0,
+      31, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      32, QMetaType::Bool, 0x00015103, uint(8), 0,
+      33, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      34, QMetaType::Bool, 0x00015103, uint(9), 0,
+      35, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      36, QMetaType::Bool, 0x00015103, uint(10), 0,
+      37, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      38, QMetaType::Bool, 0x00015103, uint(11), 0,
+      39, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      40, QMetaType::Bool, 0x00015103, uint(12), 0,
+      41, QMetaType::Bool, 0x00015401, uint(-1), 0,
+      42, QMetaType::Bool, 0x00015103, uint(13), 0,
+      43, QMetaType::Bool, 0x00015401, uint(-1), 0,
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject PlaylistSettings::staticMetaObject = { {
+    QMetaObject::SuperData::link<KConfigSkeleton::staticMetaObject>(),
+    qt_meta_stringdata_CLASSPlaylistSettingsENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSPlaylistSettingsENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSPlaylistSettingsENDCLASS_t,
+        // property 'position'
+        QtPrivate::TypeAndForceComplete<QString, std::true_type>,
+        // property 'isPositionImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'style'
+        QtPrivate::TypeAndForceComplete<QString, std::true_type>,
+        // property 'isStyleImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'overlayVideo'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isOverlayVideoImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'showThumbnails'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isShowThumbnailsImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'showMediaTitle'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isShowMediaTitleImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'loadSiblings'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isLoadSiblingsImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'repeat'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isRepeatImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'showRowNumber'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isShowRowNumberImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'canToggleWithMouse'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isCanToggleWithMouseImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'bigFontFullscreen'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isBigFontFullscreenImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'rememberState'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isRememberStateImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'visible'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isVisibleImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'showToolbar'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isShowToolbarImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'openWithSingleClick'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // property 'isOpenWithSingleClickImmutable'
+        QtPrivate::TypeAndForceComplete<bool, std::true_type>,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<PlaylistSettings, std::true_type>,
+        // method 'PositionChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'StyleChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'OverlayVideoChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'ShowThumbnailsChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'ShowMediaTitleChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'LoadSiblingsChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'RepeatChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'ShowRowNumberChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'CanToggleWithMouseChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'BigFontFullscreenChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'RememberStateChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'VisibleChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'ShowToolbarChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'OpenWithSingleClickChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
+    >,
+    nullptr
+} };
+
+void PlaylistSettings::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<PlaylistSettings *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->PositionChanged(); break;
+        case 1: _t->StyleChanged(); break;
+        case 2: _t->OverlayVideoChanged(); break;
+        case 3: _t->ShowThumbnailsChanged(); break;
+        case 4: _t->ShowMediaTitleChanged(); break;
+        case 5: _t->LoadSiblingsChanged(); break;
+        case 6: _t->RepeatChanged(); break;
+        case 7: _t->ShowRowNumberChanged(); break;
+        case 8: _t->CanToggleWithMouseChanged(); break;
+        case 9: _t->BigFontFullscreenChanged(); break;
+        case 10: _t->RememberStateChanged(); break;
+        case 11: _t->VisibleChanged(); break;
+        case 12: _t->ShowToolbarChanged(); break;
+        case 13: _t->OpenWithSingleClickChanged(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::PositionChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::StyleChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::OverlayVideoChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::ShowThumbnailsChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 3;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::ShowMediaTitleChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 4;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::LoadSiblingsChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 5;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::RepeatChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 6;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::ShowRowNumberChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 7;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::CanToggleWithMouseChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 8;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::BigFontFullscreenChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 9;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::RememberStateChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 10;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::VisibleChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 11;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::ShowToolbarChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 12;
+                return;
+            }
+        }
+        {
+            using _t = void (PlaylistSettings::*)();
+            if (_t _q_method = &PlaylistSettings::OpenWithSingleClickChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 13;
+                return;
+            }
+        }
+    } else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<PlaylistSettings *>(_o);
+        (void)_t;
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QString*>(_v) = _t->position(); break;
+        case 1: *reinterpret_cast< bool*>(_v) = _t->isPositionImmutable(); break;
+        case 2: *reinterpret_cast< QString*>(_v) = _t->style(); break;
+        case 3: *reinterpret_cast< bool*>(_v) = _t->isStyleImmutable(); break;
+        case 4: *reinterpret_cast< bool*>(_v) = _t->overlayVideo(); break;
+        case 5: *reinterpret_cast< bool*>(_v) = _t->isOverlayVideoImmutable(); break;
+        case 6: *reinterpret_cast< bool*>(_v) = _t->showThumbnails(); break;
+        case 7: *reinterpret_cast< bool*>(_v) = _t->isShowThumbnailsImmutable(); break;
+        case 8: *reinterpret_cast< bool*>(_v) = _t->showMediaTitle(); break;
+        case 9: *reinterpret_cast< bool*>(_v) = _t->isShowMediaTitleImmutable(); break;
+        case 10: *reinterpret_cast< bool*>(_v) = _t->loadSiblings(); break;
+        case 11: *reinterpret_cast< bool*>(_v) = _t->isLoadSiblingsImmutable(); break;
+        case 12: *reinterpret_cast< bool*>(_v) = _t->repeat(); break;
+        case 13: *reinterpret_cast< bool*>(_v) = _t->isRepeatImmutable(); break;
+        case 14: *reinterpret_cast< bool*>(_v) = _t->showRowNumber(); break;
+        case 15: *reinterpret_cast< bool*>(_v) = _t->isShowRowNumberImmutable(); break;
+        case 16: *reinterpret_cast< bool*>(_v) = _t->canToggleWithMouse(); break;
+        case 17: *reinterpret_cast< bool*>(_v) = _t->isCanToggleWithMouseImmutable(); break;
+        case 18: *reinterpret_cast< bool*>(_v) = _t->bigFontFullscreen(); break;
+        case 19: *reinterpret_cast< bool*>(_v) = _t->isBigFontFullscreenImmutable(); break;
+        case 20: *reinterpret_cast< bool*>(_v) = _t->rememberState(); break;
+        case 21: *reinterpret_cast< bool*>(_v) = _t->isRememberStateImmutable(); break;
+        case 22: *reinterpret_cast< bool*>(_v) = _t->visible(); break;
+        case 23: *reinterpret_cast< bool*>(_v) = _t->isVisibleImmutable(); break;
+        case 24: *reinterpret_cast< bool*>(_v) = _t->showToolbar(); break;
+        case 25: *reinterpret_cast< bool*>(_v) = _t->isShowToolbarImmutable(); break;
+        case 26: *reinterpret_cast< bool*>(_v) = _t->openWithSingleClick(); break;
+        case 27: *reinterpret_cast< bool*>(_v) = _t->isOpenWithSingleClickImmutable(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        auto *_t = static_cast<PlaylistSettings *>(_o);
+        (void)_t;
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setPosition(*reinterpret_cast< QString*>(_v)); break;
+        case 2: _t->setStyle(*reinterpret_cast< QString*>(_v)); break;
+        case 4: _t->setOverlayVideo(*reinterpret_cast< bool*>(_v)); break;
+        case 6: _t->setShowThumbnails(*reinterpret_cast< bool*>(_v)); break;
+        case 8: _t->setShowMediaTitle(*reinterpret_cast< bool*>(_v)); break;
+        case 10: _t->setLoadSiblings(*reinterpret_cast< bool*>(_v)); break;
+        case 12: _t->setRepeat(*reinterpret_cast< bool*>(_v)); break;
+        case 14: _t->setShowRowNumber(*reinterpret_cast< bool*>(_v)); break;
+        case 16: _t->setCanToggleWithMouse(*reinterpret_cast< bool*>(_v)); break;
+        case 18: _t->setBigFontFullscreen(*reinterpret_cast< bool*>(_v)); break;
+        case 20: _t->setRememberState(*reinterpret_cast< bool*>(_v)); break;
+        case 22: _t->setVisible(*reinterpret_cast< bool*>(_v)); break;
+        case 24: _t->setShowToolbar(*reinterpret_cast< bool*>(_v)); break;
+        case 26: _t->setOpenWithSingleClick(*reinterpret_cast< bool*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    } else if (_c == QMetaObject::BindableProperty) {
+    }
+    (void)_a;
+}
+
+const QMetaObject *PlaylistSettings::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *PlaylistSettings::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSPlaylistSettingsENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return KConfigSkeleton::qt_metacast(_clname);
+}
+
+int PlaylistSettings::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KConfigSkeleton::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 14)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 14;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 14)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 14;
+    }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
+            || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 28;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void PlaylistSettings::PositionChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void PlaylistSettings::StyleChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void PlaylistSettings::OverlayVideoChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+}
+
+// SIGNAL 3
+void PlaylistSettings::ShowThumbnailsChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
+}
+
+// SIGNAL 4
+void PlaylistSettings::ShowMediaTitleChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
+}
+
+// SIGNAL 5
+void PlaylistSettings::LoadSiblingsChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
+}
+
+// SIGNAL 6
+void PlaylistSettings::RepeatChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
+}
+
+// SIGNAL 7
+void PlaylistSettings::ShowRowNumberChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
+}
+
+// SIGNAL 8
+void PlaylistSettings::CanToggleWithMouseChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
+}
+
+// SIGNAL 9
+void PlaylistSettings::BigFontFullscreenChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 9, nullptr);
+}
+
+// SIGNAL 10
+void PlaylistSettings::RememberStateChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 10, nullptr);
+}
+
+// SIGNAL 11
+void PlaylistSettings::VisibleChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 11, nullptr);
+}
+
+// SIGNAL 12
+void PlaylistSettings::ShowToolbarChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 12, nullptr);
+}
+
+// SIGNAL 13
+void PlaylistSettings::OpenWithSingleClickChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 13, nullptr);
+}
+QT_WARNING_POP

@@ -1,0 +1,583 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'application.h'
+**
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../application.h"
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'application.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSApplicationEventFilterENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSApplicationEventFilterENDCLASS = QtMocHelpers::stringData(
+    "ApplicationEventFilter",
+    "applicationMouseLeave",
+    "",
+    "applicationMouseEnter"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSApplicationEventFilterENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   26,    2, 0x06,    1 /* Public */,
+       3,    0,   27,    2, 0x06,    2 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject ApplicationEventFilter::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_CLASSApplicationEventFilterENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSApplicationEventFilterENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSApplicationEventFilterENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<ApplicationEventFilter, std::true_type>,
+        // method 'applicationMouseLeave'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'applicationMouseEnter'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
+    >,
+    nullptr
+} };
+
+void ApplicationEventFilter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<ApplicationEventFilter *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->applicationMouseLeave(); break;
+        case 1: _t->applicationMouseEnter(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (ApplicationEventFilter::*)();
+            if (_t _q_method = &ApplicationEventFilter::applicationMouseLeave; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (ApplicationEventFilter::*)();
+            if (_t _q_method = &ApplicationEventFilter::applicationMouseEnter; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
+        }
+    }
+    (void)_a;
+}
+
+const QMetaObject *ApplicationEventFilter::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ApplicationEventFilter::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSApplicationEventFilterENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int ApplicationEventFilter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 2;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void ApplicationEventFilter::applicationMouseLeave()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void ApplicationEventFilter::applicationMouseEnter()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSApplicationENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSApplicationENDCLASS = QtMocHelpers::stringData(
+    "Application",
+    "qmlApplicationMouseLeave",
+    "",
+    "qmlApplicationMouseEnter",
+    "error",
+    "message",
+    "saveWindowGeometryAsync",
+    "QQuickWindow*",
+    "window",
+    "openUrl",
+    "url",
+    "urlExists",
+    "pathExists",
+    "configFilePath",
+    "ccConfigFilePath",
+    "configFolderPath",
+    "pathToUrl",
+    "path",
+    "restoreWindowGeometry",
+    "saveWindowGeometry",
+    "configFolderExists",
+    "parentUrl",
+    "key",
+    "addUrl",
+    "value",
+    "getFileContent",
+    "file",
+    "availableGuiStyles",
+    "setGuiStyle",
+    "style",
+    "activateColorScheme",
+    "name",
+    "getFonts",
+    "frameworksVersionMinor",
+    "qtMajorVersion",
+    "platformName",
+    "raiseWindow",
+    "hasYoutubeDl",
+    "youtubeDlExecutable",
+    "isYoutubePlaylist",
+    "formatTime",
+    "time",
+    "mimeType",
+    "colorSchemesModel",
+    "QAbstractItemModel*"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSApplicationENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      31,   14, // methods
+       1,  267, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       5,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,  200,    2, 0x06,    2 /* Public */,
+       3,    0,  201,    2, 0x06,    3 /* Public */,
+       4,    1,  202,    2, 0x06,    4 /* Public */,
+       6,    1,  205,    2, 0x06,    6 /* Public */,
+       9,    1,  208,    2, 0x06,    8 /* Public */,
+
+ // methods: name, argc, parameters, tag, flags, initial metatype offsets
+      11,    1,  211,    2, 0x02,   10 /* Public */,
+      12,    1,  214,    2, 0x02,   12 /* Public */,
+      13,    0,  217,    2, 0x02,   14 /* Public */,
+      14,    0,  218,    2, 0x02,   15 /* Public */,
+      15,    0,  219,    2, 0x02,   16 /* Public */,
+      16,    1,  220,    2, 0x02,   17 /* Public */,
+      18,    1,  223,    2, 0x102,   19 /* Public | MethodIsConst  */,
+      19,    1,  226,    2, 0x02,   21 /* Public */,
+      20,    0,  229,    2, 0x02,   23 /* Public */,
+      21,    1,  230,    2, 0x02,   24 /* Public */,
+      10,    1,  233,    2, 0x02,   26 /* Public */,
+      23,    2,  236,    2, 0x02,   28 /* Public */,
+      25,    1,  241,    2, 0x02,   31 /* Public */,
+      27,    0,  244,    2, 0x02,   33 /* Public */,
+      28,    1,  245,    2, 0x02,   34 /* Public */,
+      30,    1,  248,    2, 0x02,   36 /* Public */,
+      32,    0,  251,    2, 0x02,   38 /* Public */,
+      33,    0,  252,    2, 0x02,   39 /* Public */,
+      34,    0,  253,    2, 0x02,   40 /* Public */,
+      35,    0,  254,    2, 0x02,   41 /* Public */,
+      36,    0,  255,    2, 0x02,   42 /* Public */,
+      37,    0,  256,    2, 0x02,   43 /* Public */,
+      38,    0,  257,    2, 0x02,   44 /* Public */,
+      39,    1,  258,    2, 0x02,   45 /* Public */,
+      40,    1,  261,    2, 0x02,   47 /* Public */,
+      42,    1,  264,    2, 0x02,   49 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    5,
+    QMetaType::Void, 0x80000000 | 7,    8,
+    QMetaType::Void, QMetaType::QUrl,   10,
+
+ // methods: parameters
+    QMetaType::Bool, QMetaType::QUrl,   10,
+    QMetaType::Bool, QMetaType::QString,   10,
+    QMetaType::QUrl,
+    QMetaType::QUrl,
+    QMetaType::QUrl,
+    QMetaType::QUrl, QMetaType::QString,   17,
+    QMetaType::Void, 0x80000000 | 7,    8,
+    QMetaType::Void, 0x80000000 | 7,    8,
+    QMetaType::Bool,
+    QMetaType::QUrl, QMetaType::QString,   17,
+    QMetaType::QUrl, QMetaType::Int,   22,
+    QMetaType::Void, QMetaType::Int, QMetaType::QString,   22,   24,
+    QMetaType::QString, QMetaType::QString,   26,
+    QMetaType::QStringList,
+    QMetaType::Void, QMetaType::QString,   29,
+    QMetaType::Void, QMetaType::QString,   31,
+    QMetaType::QStringList,
+    QMetaType::Int,
+    QMetaType::Int,
+    QMetaType::QString,
+    QMetaType::Void,
+    QMetaType::Bool,
+    QMetaType::QString,
+    QMetaType::Bool, QMetaType::QString,   17,
+    QMetaType::QString, QMetaType::Double,   41,
+    QMetaType::QString, QMetaType::QUrl,   10,
+
+ // properties: name, type, flags, notifyId, revision
+      43, 0x80000000 | 44, 0x00015409, uint(-1), 0,
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject Application::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_CLASSApplicationENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSApplicationENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSApplicationENDCLASS_t,
+        // property 'colorSchemesModel'
+        QtPrivate::TypeAndForceComplete<QAbstractItemModel*, std::true_type>,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<Application, std::true_type>,
+        // method 'qmlApplicationMouseLeave'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'qmlApplicationMouseEnter'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'error'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'saveWindowGeometryAsync'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QQuickWindow *, std::false_type>,
+        // method 'openUrl'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QUrl &, std::false_type>,
+        // method 'urlExists'
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QUrl &, std::false_type>,
+        // method 'pathExists'
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'configFilePath'
+        QtPrivate::TypeAndForceComplete<QUrl, std::false_type>,
+        // method 'ccConfigFilePath'
+        QtPrivate::TypeAndForceComplete<QUrl, std::false_type>,
+        // method 'configFolderPath'
+        QtPrivate::TypeAndForceComplete<QUrl, std::false_type>,
+        // method 'pathToUrl'
+        QtPrivate::TypeAndForceComplete<QUrl, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'restoreWindowGeometry'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QQuickWindow *, std::false_type>,
+        // method 'saveWindowGeometry'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QQuickWindow *, std::false_type>,
+        // method 'configFolderExists'
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        // method 'parentUrl'
+        QtPrivate::TypeAndForceComplete<QUrl, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'url'
+        QtPrivate::TypeAndForceComplete<QUrl, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'addUrl'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'getFileContent'
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'availableGuiStyles'
+        QtPrivate::TypeAndForceComplete<QStringList, std::false_type>,
+        // method 'setGuiStyle'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'activateColorScheme'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'getFonts'
+        QtPrivate::TypeAndForceComplete<QStringList, std::false_type>,
+        // method 'frameworksVersionMinor'
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'qtMajorVersion'
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'platformName'
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        // method 'raiseWindow'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'hasYoutubeDl'
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        // method 'youtubeDlExecutable'
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        // method 'isYoutubePlaylist'
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'formatTime'
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const double, std::false_type>,
+        // method 'mimeType'
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QUrl, std::false_type>
+    >,
+    nullptr
+} };
+
+void Application::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<Application *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->qmlApplicationMouseLeave(); break;
+        case 1: _t->qmlApplicationMouseEnter(); break;
+        case 2: _t->error((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 3: _t->saveWindowGeometryAsync((*reinterpret_cast< std::add_pointer_t<QQuickWindow*>>(_a[1]))); break;
+        case 4: _t->openUrl((*reinterpret_cast< std::add_pointer_t<QUrl>>(_a[1]))); break;
+        case 5: { bool _r = _t->urlExists((*reinterpret_cast< std::add_pointer_t<QUrl>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 6: { bool _r = _t->pathExists((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 7: { QUrl _r = _t->configFilePath();
+            if (_a[0]) *reinterpret_cast< QUrl*>(_a[0]) = std::move(_r); }  break;
+        case 8: { QUrl _r = _t->ccConfigFilePath();
+            if (_a[0]) *reinterpret_cast< QUrl*>(_a[0]) = std::move(_r); }  break;
+        case 9: { QUrl _r = _t->configFolderPath();
+            if (_a[0]) *reinterpret_cast< QUrl*>(_a[0]) = std::move(_r); }  break;
+        case 10: { QUrl _r = _t->pathToUrl((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QUrl*>(_a[0]) = std::move(_r); }  break;
+        case 11: _t->restoreWindowGeometry((*reinterpret_cast< std::add_pointer_t<QQuickWindow*>>(_a[1]))); break;
+        case 12: _t->saveWindowGeometry((*reinterpret_cast< std::add_pointer_t<QQuickWindow*>>(_a[1]))); break;
+        case 13: { bool _r = _t->configFolderExists();
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 14: { QUrl _r = _t->parentUrl((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QUrl*>(_a[0]) = std::move(_r); }  break;
+        case 15: { QUrl _r = _t->url((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QUrl*>(_a[0]) = std::move(_r); }  break;
+        case 16: _t->addUrl((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
+        case 17: { QString _r = _t->getFileContent((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 18: { QStringList _r = _t->availableGuiStyles();
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
+        case 19: _t->setGuiStyle((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 20: _t->activateColorScheme((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 21: { QStringList _r = _t->getFonts();
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
+        case 22: { int _r = _t->frameworksVersionMinor();
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
+        case 23: { int _r = _t->qtMajorVersion();
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
+        case 24: { QString _r = _t->platformName();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 25: _t->raiseWindow(); break;
+        case 26: { bool _r = _t->hasYoutubeDl();
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 27: { QString _r = _t->youtubeDlExecutable();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 28: { bool _r = _t->isYoutubePlaylist((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 29: { QString _r = _t->formatTime((*reinterpret_cast< std::add_pointer_t<double>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 30: { QString _r = _t->mimeType((*reinterpret_cast< std::add_pointer_t<QUrl>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (Application::*)();
+            if (_t _q_method = &Application::qmlApplicationMouseLeave; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (Application::*)();
+            if (_t _q_method = &Application::qmlApplicationMouseEnter; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (Application::*)(const QString & );
+            if (_t _q_method = &Application::error; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (Application::*)(QQuickWindow * );
+            if (_t _q_method = &Application::saveWindowGeometryAsync; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 3;
+                return;
+            }
+        }
+        {
+            using _t = void (Application::*)(const QUrl & );
+            if (_t _q_method = &Application::openUrl; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 4;
+                return;
+            }
+        }
+    } else if (_c == QMetaObject::RegisterPropertyMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 0:
+            *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QAbstractItemModel* >(); break;
+        }
+    }  else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<Application *>(_o);
+        (void)_t;
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QAbstractItemModel**>(_v) = _t->colorSchemesModel(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+    } else if (_c == QMetaObject::ResetProperty) {
+    } else if (_c == QMetaObject::BindableProperty) {
+    }
+}
+
+const QMetaObject *Application::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Application::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSApplicationENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int Application::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 31)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 31;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 31)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 31;
+    }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
+            || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Application::qmlApplicationMouseLeave()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void Application::qmlApplicationMouseEnter()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void Application::error(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void Application::saveWindowGeometryAsync(QQuickWindow * _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void Application::openUrl(const QUrl & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+QT_WARNING_POP
