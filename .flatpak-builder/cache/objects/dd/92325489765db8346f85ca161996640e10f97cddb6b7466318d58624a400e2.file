@@ -1,5 +1,0 @@
-[Runtime]
-name=org.kde.haruna.Locale
-
-[ExtensionOf]
-ref=app/org.kde.haruna/x86_64/master
