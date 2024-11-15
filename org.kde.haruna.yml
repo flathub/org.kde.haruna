@@ -149,7 +149,7 @@ modules:
                       project-id: 223796
                       stable-only: true
                       url-template: https://github.com/FFmpeg/nv-codec-headers/archive/refs/tags/n$version.tar.gz
-                      
+
               - name: ffmpeg
                 cleanup:
                   - /share/ffmpeg/examples
