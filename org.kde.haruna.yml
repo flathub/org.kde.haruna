@@ -185,46 +185,6 @@ modules:
                       project-id: 5405
                       stable-only: true
                       url-template: https://ffmpeg.org/releases/ffmpeg-$version.tar.gz
-                modules:
-                  - name: libjxl
-                    buildsystem: cmake-ninja
-                    config-opts:
-                      - -DJPEGXL_ENABLE_JPEGLI=OFF
-                      - -DBUILD_TESTING=OFF
-                      - -DJPEGXL_ENABLE_BENCHMARK=OFF
-                      - -DJPEGXL_ENABLE_COVERAGE=OFF
-                      - -DJPEGXL_ENABLE_EXAMPLES=OFF
-                      - -DJPEGXL_ENABLE_FUZZERS=OFF
-                      - -DJPEGXL_ENABLE_JNI=OFF
-                      - -DJPEGXL_ENABLE_SJPEG=OFF
-                      - -DJPEGXL_ENABLE_SKCMS=OFF
-                      - -DJPEGXL_ENABLE_TOOLS=OFF
-                      - -DJPEGXL_ENABLE_VIEWERS=OFF
-                    sources:
-                      - type: archive
-                        url: https://github.com/libjxl/libjxl/archive/refs/tags/v0.11.0.tar.gz
-                        sha256: 7ce4ec8bb37a435a73ac18c4c9ff56c2dc6c98892bf3f53a328e3eca42efb9cf
-                        x-checker-data:
-                          type: anitya
-                          project-id: 232764
-                          stable-only: true
-                          url-template: https://github.com/libjxl/libjxl/archive/refs/tags/v$version.tar.gz
-                    modules:
-                      - name: highway
-                        buildsystem: cmake-ninja
-                        config-opts:
-                          - -DCMAKE_BUILD_TYPE=RelWithDebInfo
-                          - -DBUILD_TESTING=OFF
-                          - -DBUILD_SHARED_LIBS=ON
-                        sources:
-                          - type: archive
-                            url: https://github.com/google/highway/archive/refs/tags/1.2.0.tar.gz
-                            sha256: 7e0be78b8318e8bdbf6fa545d2ecb4c90f947df03f7aadc42c1967f019e63343
-                            x-checker-data:
-                              type: anitya
-                              project-id: 205809
-                              stable-only: true
-                              url-template: https://github.com/google/highway/archive/refs/tags/$version.tar.gz
 
               - name: libass
                 config-opts:
