@@ -107,8 +107,8 @@ modules:
                       stable-only: true
                       url-template: https://code.videolan.org/videolan/libplacebo/-/archive/v$version/libplacebo-v$version.tar.gz
                   - type: archive
-                    url: https://github.com/pallets/jinja/archive/refs/tags/3.1.5.tar.gz
-                    sha256: 684d78790cc747f4b4b68b365783af8cac770c2c66d9f414b21c8b8480e019d0
+                    url: https://github.com/pallets/jinja/archive/refs/tags/3.1.6.tar.gz
+                    sha256: 2074b22a72caa65474902234b320d73463d6d4c223ee49f4b433495758356337
                     dest: 3rdparty/jinja
                     x-checker-data:
                       type: anitya
