@@ -5,6 +5,13 @@ sdk: org.kde.Sdk
 command: haruna
 rename-icon: haruna
 copy-icon: true
+add-extensions:
+  org.freedesktop.Platform.ffmpeg-full:
+    version: '24.08'
+    directory: lib/ffmpeg
+    add-ld-path: .
+cleanup-commands:
+  - mkdir -p ${FLATPAK_DEST}/lib/ffmpeg    
 finish-args:
   - --share=ipc
   - --share=network
