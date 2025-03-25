@@ -72,8 +72,8 @@ modules:
               - -Dmanpage-build=disabled
             sources:
               - type: archive
-                url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.39.0.tar.gz
-                sha256: 2ca92437affb62c2b559b4419ea4785c70d023590500e8a52e95ea3ab4554683
+                url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.40.0.tar.gz
+                sha256: 10a0f4654f62140a6dd4d380dcf0bbdbdcf6e697556863dc499c296182f081a3
                 x-checker-data:
                   type: anitya
                   project-id: 5348
@@ -182,8 +182,8 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2025.03.21.tar.gz
-            sha256: 908e1139b8d165ecd75418dc9da5c4428e2052c4d694fe2ccc0e9cffd6d24f2c
+            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2025.03.25.tar.gz
+            sha256: 357bd541e96d7cf7ab5acb91af457858992f3762ff6bbb318c471bac94bf0c5e
             x-checker-data:
               type: anitya
               project-id: 143399
