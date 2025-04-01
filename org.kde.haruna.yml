@@ -43,6 +43,8 @@ modules:
           type: anitya
           projet-id: 267594
           url-template: https://download.kde.org/stable/haruna/$version/haruna-$version.tar.xz
+      - type: patch
+        path: tracksmodel_reset.diff
     modules:
       - name: mpvqt
         buildsystem: cmake-ninja
