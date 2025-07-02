@@ -106,33 +106,18 @@ modules:
               - name: libplacebo
                 buildsystem: meson
                 config-opts:
-                  - -Dd3d11=disabled
-                  - -Ddemos=False
+                  - -Ddemos=false
+                cleanup:
+                  - /include
+                  - /lib/pkgconfig
                 sources:
-                  - type: archive
-                    url: https://code.videolan.org/videolan/libplacebo/-/archive/v7.349.0/libplacebo-v7.349.0.tar.gz
-                    sha256: 79120e685a1836344b51b13b6a5661622486a84e4d4a35f6c8d01679a20fbc86
+                  - type: git
+                    url: https://github.com/haasn/libplacebo.git
+                    tag: v7.351.0
+                    commit: 3188549fba13bbdf3a5a98de2a38c2e71f04e21e
                     x-checker-data:
-                      type: anitya
-                      project-id: 20101
-                      stable-only: true
-                      url-template: https://code.videolan.org/videolan/libplacebo/-/archive/v$version/libplacebo-v$version.tar.gz
-                  - type: archive
-                    url: https://github.com/pallets/jinja/archive/refs/tags/3.1.6.tar.gz
-                    sha256: 2074b22a72caa65474902234b320d73463d6d4c223ee49f4b433495758356337
-                    dest: 3rdparty/jinja
-                    x-checker-data:
-                      type: anitya
-                      project-id: 3894
-                      url-template: https://github.com/pallets/jinja/archive/refs/tags/$version.tar.gz
-                  - type: archive
-                    url: https://github.com/Dav1dde/glad/archive/refs/tags/v2.0.8.tar.gz
-                    sha256: 44f06f9195427c7017f5028d0894f57eb216b0a8f7c4eda7ce883732aeb2d0fc
-                    dest: 3rdparty/glad
-                    x-checker-data:
-                      type: anitya
-                      project-id: 300234
-                      url-template: https://github.com/Dav1dde/glad/archive/refs/tags/v$version.tar.gz
+                      type: git
+                      tag-pattern: ^v([\d.]+)$
 
               - name: libXpresent
                 buildsystem: autotools
