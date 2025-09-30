@@ -37,8 +37,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://download.kde.org/stable/haruna/1.4.0/haruna-1.4.0.tar.xz
-        sha256: 3cb47be3148dcc8637ff5262573390ca5edc2ece00028af790d7355347d8df6e
+        url: https://download.kde.org/stable/haruna/1.5.0/haruna-1.5.0.tar.xz
+        sha256: d3e74e62f36808868a5ef5253b3ab080674eb702528cf56ab37f7a893e48ef5d
         x-checker-data:
           type: anitya
           project-id: 267594
@@ -46,6 +46,23 @@ modules:
       # - type: patch
       #   path: tracksmodel_reset.diff
     modules:
+      - name: KDSingleApplication
+        buildsystem: cmake-ninja
+        builddir: true
+        config-opts:
+          - -DCMAKE_BUILD_TYPE=Release
+          - -DKDSingleApplication_QT6=ON
+          - -DKDSingleApplication_EXAMPLES=OFF
+        sources:
+          - type: archive
+            url: https://github.com/KDAB/KDSingleApplication/archive/refs/tags/v1.2.0.tar.gz
+            sha256: ff4ae6a4620beed1cdb3e6a9b78a17d7d1dae7139c3d4746d4856b7547d42c38
+            x-checker-data:
+              type: anitya
+              project-id: 370439
+              stable-only: true
+              url-template: https://github.com/KDAB/KDSingleApplication/archive/refs/tags/v$version.tar.gz
+
       - name: mpvqt
         buildsystem: cmake-ninja
         sources:
