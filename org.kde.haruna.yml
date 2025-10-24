@@ -111,8 +111,8 @@ modules:
                 sources:
                   - type: git
                     url: https://github.com/openresty/luajit2.git
-                    tag: v2.1-20250826
-                    commit: dcc9c9ee67e1a5d3d636bd7745e95ddb4a1c70bc
+                    tag: v2.1-20251022
+                    commit: b65ec19dccd61b9f5ed3258b6eee8d0ed714b140
                     x-checker-data:
                       type: git
                       tag-pattern: ^v([\d.-]+)$
@@ -188,8 +188,8 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2025.10.14.tar.gz
-            sha256: ca89bef86a5580b959c05b27a274d5bc039480bd0e4106c90f1470fc7c650745
+            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2025.10.22.tar.gz
+            sha256: ef21d5427e896d46180408dc1feb0da19bf0a97876b0f10b15f6304fa496991c
             x-checker-data:
               type: anitya
               project-id: 143399
