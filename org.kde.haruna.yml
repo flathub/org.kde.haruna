@@ -128,6 +128,8 @@ modules:
                     x-checker-data:
                       type: git
                       tag-pattern: ^v([\d.]+)$
+                  - type: patch
+                    path: vulkan-python-xml.patch
 
               - name: libXpresent
                 buildsystem: autotools
