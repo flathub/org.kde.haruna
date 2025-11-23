@@ -25,6 +25,8 @@ cleanup:
   - /lib/cmake
   - /lib/pkgconfig
   - /share/man
+  - /mkspecs
+
 modules:
   - name: haruna
     buildsystem: cmake-ninja
@@ -41,6 +43,8 @@ modules:
     modules:
       - name: KDSingleApplication
         buildsystem: cmake-ninja
+        cleanup:
+          - /share/doc
         builddir: true
         config-opts:
           - -DCMAKE_BUILD_TYPE=Release
@@ -70,6 +74,7 @@ modules:
           - name: libmpv
             cleanup:
               - /share/bash-completion
+              - /share/fish
               - /share/zsh
               - /share/doc
               - /share/icons
