@@ -90,15 +90,13 @@ modules:
               - -Dmanpage-build=disabled
             sources:
               - type: archive
-                url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.40.0.tar.gz
-                sha256: 10a0f4654f62140a6dd4d380dcf0bbdbdcf6e697556863dc499c296182f081a3
+                url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.41.0.tar.gz
+                sha256: ee21092a5ee427353392360929dc64645c54479aefdb5babc5cfbb5fad626209
                 x-checker-data:
                   type: anitya
                   project-id: 5348
                   stable-only: true
                   url-template: https://github.com/mpv-player/mpv/archive/refs/tags/v$version.tar.gz
-              - type: patch
-                path: fix-hwdec.diff
             modules:
               - name: luajit
                 no-autogen: true
