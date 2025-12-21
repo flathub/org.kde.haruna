@@ -97,8 +97,6 @@ modules:
                   project-id: 5348
                   stable-only: true
                   url-template: https://github.com/mpv-player/mpv/archive/refs/tags/v$version.tar.gz
-              - type: patch
-                path: fix-hwdec.diff
             modules:
               - name: luajit
                 no-autogen: true
