@@ -34,8 +34,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://download.kde.org/stable/haruna/1.7.0/haruna-1.7.0.tar.xz
-        sha256: 8dadfc30becf525fcd646fd2383d372d1ad1fe720cb4e08d342ad36000aa10bc
+        url: https://download.kde.org/stable/haruna/1.7.1/haruna-1.7.1.tar.xz
+        sha256: b29a717151b9d65f5abd736a3a774282d3014e281c8b89f2b79cc021042406e2
         x-checker-data:
           type: anitya
           project-id: 267594
@@ -98,6 +98,8 @@ modules:
                   project-id: 5348
                   stable-only: true
                   url-template: https://github.com/mpv-player/mpv/archive/refs/tags/v$version.tar.gz
+              - type: patch
+                path: fix-screenshots.diff
             modules:
               - name: luajit
                 no-autogen: true
@@ -189,8 +191,8 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2025.12.08.tar.gz
-            sha256: 10bec5b2bfb367263e7e46ddb69187204506f9d67b7f01bb499d07fa0d54d4b7
+            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2026.01.29.tar.gz
+            sha256: 1026d6b212e38b21acde6fde34d1d2d83da5e23a7ad38a455528dadaec3fefe7
             x-checker-data:
               type: anitya
               project-id: 143399
