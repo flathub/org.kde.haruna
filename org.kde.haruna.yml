@@ -111,8 +111,8 @@ modules:
                 sources:
                   - type: git
                     url: https://github.com/openresty/luajit2.git
-                    tag: v2.1-20260114
-                    commit: ccdd3299da29f6e0148192c7d2b4f11c9b553b7a
+                    tag: v2.1-20260311
+                    commit: 3640b6c590f9c383ffa5d0955f35e646f684a1da
                     x-checker-data:
                       type: git
                       tag-pattern: ^v([\d.-]+)$
@@ -130,8 +130,8 @@ modules:
                 sources:
                   - type: git
                     url: https://github.com/haasn/libplacebo.git
-                    tag: v7.351.0
-                    commit: 3188549fba13bbdf3a5a98de2a38c2e71f04e21e
+                    tag: v7.360.1
+                    commit: cee9b076f2c63104ccfd497fa79c39a867293ec4
                     x-checker-data:
                       type: git
                       tag-pattern: ^v([\d.]+)$
@@ -191,8 +191,8 @@ modules:
           - install yt-dlp /app/bin
         sources:
           - type: archive
-            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2026.02.04.tar.gz
-            sha256: dc846a0c10b7c44c3cc10533bd2c453c9c467f7732dc12ea04f3e606c900572a
+            url: https://github.com/yt-dlp/yt-dlp/archive/refs/tags/2026.03.13.tar.gz
+            sha256: 39a35d59b0f2eb913909698fe2f4f8bb5a5767c0b01bc8cf521047459a760702
             x-checker-data:
               type: anitya
               project-id: 143399
