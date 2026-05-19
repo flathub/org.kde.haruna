@@ -32,6 +32,8 @@ cleanup:
 modules:
   - name: haruna
     buildsystem: cmake-ninja
+    post-install:
+      - cp -r LICENSES $FLATPAK_DEST/share/licenses/$FLATPAK_ID/haruna/
     sources:
       - type: archive
         url: https://download.kde.org/stable/haruna/1.8.0/haruna-1.8.0.tar.xz
