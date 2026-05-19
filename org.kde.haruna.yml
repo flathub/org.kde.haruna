@@ -32,16 +32,16 @@ cleanup:
 modules:
   - name: haruna
     buildsystem: cmake-ninja
+    post-install:
+      - cp -r LICENSES $FLATPAK_DEST/share/licenses/$FLATPAK_ID/haruna/
     sources:
       - type: archive
-        url: https://download.kde.org/stable/haruna/1.7.1/haruna-1.7.1.tar.xz
-        sha256: b29a717151b9d65f5abd736a3a774282d3014e281c8b89f2b79cc021042406e2
+        url: https://download.kde.org/stable/haruna/1.8.1/haruna-1.8.1.tar.xz
+        sha256: 01f154e3161292da606899c3017f863362e00bb2402a2796be5e8d6849fc4b4b
         x-checker-data:
           type: anitya
           project-id: 267594
           url-template: https://download.kde.org/stable/haruna/$version/haruna-$version.tar.xz
-      # - type: patch
-      #   path: tracksmodel_reset.diff
     modules:
       - name: KDSingleApplication
         buildsystem: cmake-ninja
@@ -66,8 +66,8 @@ modules:
         buildsystem: cmake-ninja
         sources:
           - type: archive
-            url: https://download.kde.org/stable/mpvqt/mpvqt-1.1.1.tar.xz
-            sha256: bdd1ea69338cf3017f628a886218b8c185ca24e8257f03207a3cf1bbb51e3d32
+            url: https://download.kde.org/stable/mpvqt/mpvqt-1.2.0.tar.xz
+            sha256: 8660ad79c0d60fed77f29b36e1742841466af5405de702c81a121e6eeb625ebb
             x-checker-data:
               type: anitya
               project-id: 370634
@@ -124,9 +124,6 @@ modules:
                 buildsystem: meson
                 config-opts:
                   - -Ddemos=false
-                cleanup:
-                  - /include
-                  - /lib/pkgconfig
                 sources:
                   - type: git
                     url: https://github.com/haasn/libplacebo.git
