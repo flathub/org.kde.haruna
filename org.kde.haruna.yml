@@ -42,8 +42,6 @@ modules:
           type: anitya
           project-id: 267594
           url-template: https://download.kde.org/stable/haruna/$version/haruna-$version.tar.xz
-      # - type: patch
-      #   path: tracksmodel_reset.diff
     modules:
       - name: KDSingleApplication
         buildsystem: cmake-ninja
