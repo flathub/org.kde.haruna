@@ -36,8 +36,8 @@ modules:
       - cp -r LICENSES $FLATPAK_DEST/share/licenses/$FLATPAK_ID/haruna/
     sources:
       - type: archive
-        url: https://download.kde.org/stable/haruna/1.8.0/haruna-1.8.0.tar.xz
-        sha256: 2fd7815e4163d100d37dad8a4a6ce28417ca99a1b19127b435249e87ba2e0b7e
+        url: https://download.kde.org/stable/haruna/1.8.1/haruna-1.8.1.tar.xz
+        sha256: 01f154e3161292da606899c3017f863362e00bb2402a2796be5e8d6849fc4b4b
         x-checker-data:
           type: anitya
           project-id: 267594
