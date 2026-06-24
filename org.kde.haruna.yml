@@ -150,8 +150,8 @@ modules:
                   - --disable-static
                 sources:
                   - type: archive
-                    url: https://github.com/libass/libass/releases/download/0.17.4/libass-0.17.4.tar.gz
-                    sha256: a886b3b80867f437bc55cff3280a652bfa0d37b43d2aff39ddf3c4f288b8c5a8
+                    url: https://github.com/libass/libass/releases/download/0.17.5/libass-0.17.5.tar.gz
+                    sha256: caab4b993dd7be6187c55623b789ed75dddefea6e65938af134637c732fe094a
                     x-checker-data:
                       type: anitya
                       project-id: 1560
