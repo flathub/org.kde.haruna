@@ -1,0 +1,24 @@
+diff --git a/src/extractors/ffmpegextractor.cpp b/src/extractors/ffmpegextractor.cpp
+index 712d6724045a696333da5cd6a63ff67c5ce760fa..7423a3e74afcba465d2701e923e2023dd5bcff8d 100644
+--- a/src/extractors/ffmpegextractor.cpp
++++ b/src/extractors/ffmpegextractor.cpp
+@@ -36,6 +36,7 @@ FFmpegExtractor::FFmpegExtractor(QObject* parent)
+ }
+ 
+ const QStringList supportedMimeTypes = {
++    QStringLiteral("video/matroska"),
+     QStringLiteral("video/mp2t"),
+     QStringLiteral("video/mp4"),
+     QStringLiteral("video/mpeg"),
+diff --git a/src/extractors/ffmpegextractor.json b/src/extractors/ffmpegextractor.json
+index 6b49093907f8826a4acf68ada3cca0feacf7af39..9b7b67d1dc801e1b1d9e55e1fe209e4cae20c144 100644
+--- a/src/extractors/ffmpegextractor.json
++++ b/src/extractors/ffmpegextractor.json
+@@ -2,6 +2,7 @@
+     "Name" : "FFMpegExtractor",
+     "Id" :   "org.kde.ffmpegextractor",
+     "MimeTypes" : {
++        "video/matroska"   : { "Version" : "0.0" },
+         "video/mp2t"       : { "Version" : "0.0" },
+         "video/mp4"        : { "Version" : "0.0" },
+         "video/mpeg"       : { "Version" : "0.0" },
