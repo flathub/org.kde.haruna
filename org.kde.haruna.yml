@@ -43,6 +43,15 @@ modules:
           project-id: 267594
           url-template: https://download.kde.org/stable/haruna/$version/haruna-$version.tar.xz
     modules:
+      - name: kfilemetadata
+        buildsystem: cmake-ninja
+        sources:
+          - type: archive
+            url: https://download.kde.org/stable/frameworks/6.28/kfilemetadata-6.28.0.tar.xz
+            sha256: 015be4aa6986642d3f13903b47c1aae7183d3218888dc4353afe1b1e9dd64c1e
+          - type: patch
+            path: kfilemetadata-fix-reading-mkv.diff
+
       - name: KDSingleApplication
         buildsystem: cmake-ninja
         cleanup:
